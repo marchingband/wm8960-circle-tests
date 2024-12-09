@@ -1,0 +1,1719 @@
+Archive member included to satisfy reference by file (symbol)
+
+../../lib/sound/libsound.a(soundbasedevice.o)
+                              audio.o (CSoundBaseDevice::Write(void const*, unsigned int))
+../../lib/sound/libsound.a(i2ssoundbasedevice.o)
+                              audio.o (CI2SSoundBaseDevice::GetRangeMin() const)
+../../lib/sound/libsound.a(wm8960soundcontroller.o)
+                              ../../lib/sound/libsound.a(i2ssoundbasedevice.o) (CWM8960SoundController::CWM8960SoundController(CI2CMaster*, unsigned char, unsigned int, bool, bool))
+../../lib/sound/libsound.a(dmasoundbuffers.o)
+                              ../../lib/sound/libsound.a(i2ssoundbasedevice.o) (CDMASoundBuffers::CDMASoundBuffers(bool, unsigned int, TDREQ, unsigned int, CInterruptSystem*))
+../../lib/libcircle.a(actled.o)
+                              kernel.o (CActLED::CActLED(bool))
+../../lib/libcircle.a(alloc.o)
+                              audio.o (malloc)
+../../lib/libcircle.a(assert.o)
+                              ../../lib/sound/libsound.a(soundbasedevice.o) (assertion_failed)
+../../lib/libcircle.a(debug.o)
+                              ../../lib/libcircle.a(assert.o) (debug_stacktrace(unsigned int const*, char const*))
+../../lib/libcircle.a(device.o)
+                              audio.o (CDevice::Seek(unsigned long long))
+../../lib/libcircle.a(devicenameservice.o)
+                              kernel.o (CDeviceNameService::CDeviceNameService())
+../../lib/libcircle.a(koptions.o)
+                              kernel.o (CKernelOptions::~CKernelOptions())
+../../lib/libcircle.a(logger.o)
+                              kernel.o (CLogger::CLogger(unsigned int, CTimer*, bool))
+../../lib/libcircle.a(machineinfo.o)
+                              ../../lib/sound/libsound.a(i2ssoundbasedevice.o) (CMachineInfo::GetMachineModel() const)
+../../lib/libcircle.a(ptrlist.o)
+                              ../../lib/libcircle.a(device.o) (CPtrList::CPtrList())
+../../lib/libcircle.a(serial.o)
+                              kernel.o (CSerialDevice::CSerialDevice(CInterruptSystem*, bool, unsigned int))
+../../lib/libcircle.a(string.o)
+                              ../../lib/libcircle.a(devicenameservice.o) (CString::~CString())
+../../lib/libcircle.a(sysinit.o)
+                              ../../lib/libcircle.a(logger.o) (set_qemu_exit_status)
+../../lib/libcircle.a(timer.o)
+                              kernel.o (CTimer::CTimer(CInterruptSystem*))
+../../lib/libcircle.a(util.o)
+                              ../../lib/libcircle.a(devicenameservice.o) (strlen)
+../../lib/libcircle.a(util_fast.o)
+                              ../../lib/sound/libsound.a(soundbasedevice.o) (memset)
+../../lib/libcircle.a(virtualgpiopin.o)
+                              ../../lib/libcircle.a(actled.o) (CVirtualGPIOPin::Write(unsigned int))
+../../lib/libcircle.a(chainboot.o)
+                              ../../lib/libcircle.a(sysinit.o) (IsChainBootEnabled)
+../../lib/libcircle.a(new.o)  ../../lib/sound/libsound.a(dmasoundbuffers.o) (operator new(unsigned int, int))
+../../lib/libcircle.a(heapallocator.o)
+                              ../../lib/libcircle.a(alloc.o) (CHeapAllocator::Allocate(unsigned int))
+../../lib/libcircle.a(pageallocator.o)
+                              ../../lib/libcircle.a(alloc.o) (CPageAllocator::Allocate())
+../../lib/libcircle.a(exceptionhandler.o)
+                              kernel.o (CExceptionHandler::~CExceptionHandler())
+../../lib/libcircle.a(exceptionstub.o)
+                              ../../lib/libcircle.a(exceptionhandler.o) (PrefetchAbortStub)
+../../lib/libcircle.a(memory.o)
+                              ../../lib/libcircle.a(sysinit.o) (CMemorySystem::Destructor())
+../../lib/libcircle.a(pagetable.o)
+                              ../../lib/libcircle.a(memory.o) (CPageTable::CPageTable(unsigned int))
+../../lib/libcircle.a(startup.o)
+                              (_start)
+../../lib/libcircle.a(synchronize.o)
+                              ../../lib/sound/libsound.a(soundbasedevice.o) (EnterCritical)
+../../lib/libcircle.a(interrupt.o)
+                              kernel.o (CInterruptSystem::CInterruptSystem())
+../../lib/libcircle.a(gpioclock.o)
+                              ../../lib/sound/libsound.a(i2ssoundbasedevice.o) (CGPIOClock::CGPIOClock(TGPIOClock, TGPIOClockSource))
+../../lib/libcircle.a(gpiopin.o)
+                              ../../lib/sound/libsound.a(i2ssoundbasedevice.o) (CGPIOPin::~CGPIOPin())
+../../lib/libcircle.a(i2cmaster.o)
+                              kernel.o (CI2CMaster::CI2CMaster(unsigned int, bool, unsigned int))
+../../lib/libcircle.a(bcmpropertytags.o)
+                              ../../lib/libcircle.a(koptions.o) (CBcmPropertyTags::CBcmPropertyTags(bool))
+../../lib/libcircle.a(delayloop.o)
+                              ../../lib/libcircle.a(timer.o) (DelayLoop)
+../../lib/libcircle.a(gpiomanager.o)
+                              ../../lib/libcircle.a(gpiopin.o) (CGPIOManager::ConnectInterrupt(CGPIOPin*))
+../../lib/libcircle.a(bcmmailbox.o)
+                              ../../lib/libcircle.a(bcmpropertytags.o) (CBcmMailBox::CBcmMailBox(unsigned int, bool))
+/Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_udivsi3.o)
+                              ../../lib/sound/libsound.a(soundbasedevice.o) (__aeabi_uidiv)
+/Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_dvmd_tls.o)
+                              /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_udivsi3.o) (__aeabi_idiv0)
+/Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_aeabi_uldivmod.o)
+                              ../../lib/libcircle.a(string.o) (__aeabi_uldivmod)
+/Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_paritysi2.o)
+                              ../../lib/sound/libsound.a(soundbasedevice.o) (__paritysi2)
+/Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_udivmoddi4.o)
+                              /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_aeabi_uldivmod.o) (__udivmoddi4)
+/Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sinf.o)
+                              audio.o (sinf)
+/Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-cosf.o)
+                              audio.o (cosf)
+/Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sincosf_data.o)
+                              /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sinf.o) (__inv_pio4)
+/Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-math_errf.o)
+                              /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sinf.o) (__math_invalidf)
+/Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sf_fmax.o)
+                              audio.o (fmaxf)
+/Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sf_fmin.o)
+                              audio.o (fminf)
+/Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sf_fpclassify.o)
+                              /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sf_fmax.o) (__fpclassifyf)
+/Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sf_floor.o)
+                              audio.o (floorf)
+/Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_arm_addsubdf3.o)
+                              /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sinf.o) (__aeabi_l2d)
+
+Discarded input sections
+
+ .group         0x00000000        0x8 audio.o
+ .group         0x00000000        0x8 audio.o
+ .group         0x00000000        0x8 audio.o
+ .group         0x00000000        0x8 ../../lib/sound/libsound.a(soundbasedevice.o)
+ .group         0x00000000       0x10 ../../lib/sound/libsound.a(i2ssoundbasedevice.o)
+ .group         0x00000000        0x8 ../../lib/sound/libsound.a(wm8960soundcontroller.o)
+ .group         0x00000000        0x8 ../../lib/sound/libsound.a(wm8960soundcontroller.o)
+ .group         0x00000000       0x10 ../../lib/sound/libsound.a(wm8960soundcontroller.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+*default*        0x00000000         0xffffffff
+
+Linker script and memory map
+
+Address of section .init set to 0x8000
+
+.init           0x00008000       0x64
+ *(.init)
+ .init          0x00008000       0x64 ../../lib/libcircle.a(startup.o)
+                0x00008000                _start
+
+.text           0x00008068    0x12f74
+ *(.text*)
+ .text          0x00008068       0x18 dsp.o
+                0x00008068                min
+                0x00008074                max
+ .text          0x00008080     0x3814 audio.o
+                0x00008080                declare(UIGlue*, float*, char const*, char const*)
+                0x00008084                openVerticalBox(UIGlue*, char*)
+                0x00008088                addVerticalBargraph(UIGlue*, char const*, float*, float, float)
+                0x0000808c                addButton(UIGlue*, char const*, float*)
+                0x00008090                addVerticalSlider(UIGlue*, char const*, float*, float, float, float, float)
+                0x00008094                CAudio::~CAudio()
+                0x00008094                CAudio::~CAudio()
+                0x000080d0                CAudio::PutChunk(unsigned int const*, unsigned int)
+                0x00008140                addNumEntry(UIGlue*, char const*, float*, float, float, float, float)
+                0x00008144                addHorizontalSlider(UIGlue*, char const*, float*, float, float, float, float)
+                0x00008148                openHorizontalBox(UIGlue*, char*)
+                0x0000814c                closeBox(UIGlue*)
+                0x00008150                CAudio::~CAudio()
+                0x00008198                getNumInputsmydspSIG0
+                0x000081a0                getNumOutputsmydspSIG0
+                0x000081a8                newmydsp
+                0x000081b8                deletemydsp
+                0x000081bc                metadatamydsp
+                0x00008498                getSampleRatemydsp
+                0x000084a0                getNumInputsmydsp
+                0x000084a8                getNumOutputsmydsp
+                0x000084b0                classInitmydsp
+                0x0000852c                instanceResetUserInterfacemydsp
+                0x00008530                instanceClearmydsp
+                0x00008bd0                instanceConstantsmydsp
+                0x00008ed4                instanceInitmydsp
+                0x00008eec                initmydsp
+                0x00008f18                buildUserInterfacemydsp
+                0x00008f40                computemydsp
+                0x0000b298                CAudio::GetChunk(unsigned int*, unsigned int)
+                0x0000b464                extract(char const*, float*, float, float, float, float)
+                0x0000b468                CAudio::CAudio(CInterruptSystem*, CI2CMaster*)
+                0x0000b468                CAudio::CAudio(CInterruptSystem*, CI2CMaster*)
+                0x0000b57c                tos24(int)
+                0x0000b594                CAudio::Process()
+                0x0000b884                u32_to_s24(unsigned long)
+ .text._ZN16CSoundController10EnableJackENS_5TJackE
+                0x0000b894        0x8 audio.o
+                0x0000b894                CSoundController::EnableJack(CSoundController::TJack)
+ .text._ZNK16CSoundController14GetControlInfoENS_8TControlENS_5TJackENS_8TChannelE
+                0x0000b89c       0x14 audio.o
+                0x0000b89c                CSoundController::GetControlInfo(CSoundController::TControl, CSoundController::TJack, CSoundController::TChannel) const
+ .text._ZN16CSoundController10SetControlENS_8TControlENS_5TJackENS_8TChannelEi
+                0x0000b8b0        0x8 audio.o
+                0x0000b8b0                CSoundController::SetControl(CSoundController::TControl, CSoundController::TJack, CSoundController::TChannel, int)
+ .text          0x0000b8b8      0x27c kernel.o
+                0x0000b8b8                CKernel::CKernel()
+                0x0000b8b8                CKernel::CKernel()
+                0x0000b960                CKernel::Initialize()
+                0x0000ba70                CKernel::Run()
+                0x0000bac8                CKernel::~CKernel()
+                0x0000bac8                CKernel::~CKernel()
+ .text          0x0000bb34        0x0 main.o
+ .text.startup  0x0000bb34       0x3c main.o
+                0x0000bb34                main
+ .text          0x0000bb70     0x1ccc ../../lib/sound/libsound.a(soundbasedevice.o)
+                0x0000bb70                CSoundBaseDevice::GetRangeMin() const
+                0x0000bb78                CSoundBaseDevice::GetRangeMax() const
+                0x0000bb80                CSoundBaseDevice::CSoundBaseDevice()
+                0x0000bb80                CSoundBaseDevice::CSoundBaseDevice()
+                0x0000bbfc                CSoundBaseDevice::~CSoundBaseDevice()
+                0x0000bbfc                CSoundBaseDevice::~CSoundBaseDevice()
+                0x0000bc5c                CSoundBaseDevice::~CSoundBaseDevice()
+                0x0000bcc8                CSoundBaseDevice::Setup(TSoundFormat, unsigned int, unsigned int, unsigned int, unsigned int, bool)
+                0x0000c018                CSoundBaseDevice::CSoundBaseDevice(TSoundFormat, unsigned int, unsigned int, bool)
+                0x0000c018                CSoundBaseDevice::CSoundBaseDevice(TSoundFormat, unsigned int, unsigned int, bool)
+                0x0000c0d0                CSoundBaseDevice::GetHWTXChannels() const
+                0x0000c0d8                CSoundBaseDevice::GetHWRXChannels() const
+                0x0000c0e0                CSoundBaseDevice::AllocateQueue(unsigned int)
+                0x0000c17c                CSoundBaseDevice::AllocateQueueFrames(unsigned int)
+                0x0000c1fc                CSoundBaseDevice::SetWriteFormat(TSoundFormat, unsigned int)
+                0x0000c2ac                CSoundBaseDevice::GetQueueSizeFrames()
+                0x0000c2e8                CSoundBaseDevice::RegisterNeedDataCallback(void (*)(void*), void*)
+                0x0000c340                CSoundBaseDevice::AreChannelsSwapped() const
+                0x0000c348                CSoundBaseDevice::AllocateReadQueue(unsigned int)
+                0x0000c3ec                CSoundBaseDevice::AllocateReadQueueFrames(unsigned int)
+                0x0000c470                CSoundBaseDevice::SetReadFormat(TSoundFormat, unsigned int, bool)
+                0x0000c52c                CSoundBaseDevice::GetReadQueueSizeFrames()
+                0x0000c568                CSoundBaseDevice::RegisterHaveDataCallback(void (*)(void*), void*)
+                0x0000c5bc                CSoundBaseDevice::ConvertIEC958Sample(unsigned int, unsigned int)
+                0x0000c670                CSoundBaseDevice::ConvertSoundFormat(void*, void const*)
+                0x0000c794                CSoundBaseDevice::GetQueueBytesFree()
+                0x0000c820                CSoundBaseDevice::GetQueueBytesAvail()
+                0x0000c8a4                CSoundBaseDevice::GetQueueFramesAvail()
+                0x0000c91c                CSoundBaseDevice::Enqueue(void const*, unsigned int)
+                0x0000c9bc                CSoundBaseDevice::Write(void const*, unsigned int)
+                0x0000ccd0                CSoundBaseDevice::Dequeue(void*, unsigned int)
+                0x0000cd70                CSoundBaseDevice::GetChunkInternal(void*, unsigned int)
+                0x0000cfb0                CSoundBaseDevice::GetChunk(short*, unsigned int)
+                0x0000cfe0                CSoundBaseDevice::GetChunk(unsigned int*, unsigned int)
+                0x0000d014                CSoundBaseDevice::ConvertReadSoundFormat(void*, void const*)
+                0x0000d0c0                CSoundBaseDevice::GetReadQueueBytesFree()
+                0x0000d14c                CSoundBaseDevice::GetReadQueueBytesAvail()
+                0x0000d1d4                CSoundBaseDevice::GetReadQueueFramesAvail()
+                0x0000d250                CSoundBaseDevice::ReadEnqueue(void const*, unsigned int)
+                0x0000d2f4                CSoundBaseDevice::PutChunkInternal(void const*, unsigned int)
+                0x0000d40c                CSoundBaseDevice::PutChunk(short const*, unsigned int)
+                0x0000d43c                CSoundBaseDevice::PutChunk(unsigned int const*, unsigned int)
+                0x0000d470                CSoundBaseDevice::ReadDequeue(void*, unsigned int)
+                0x0000d514                CSoundBaseDevice::Read(void*, unsigned int)
+ .text._ZN16CSoundBaseDevice13GetControllerEv
+                0x0000d83c        0x8 ../../lib/sound/libsound.a(soundbasedevice.o)
+                0x0000d83c                CSoundBaseDevice::GetController()
+ .text          0x0000d844      0x878 ../../lib/sound/libsound.a(i2ssoundbasedevice.o)
+                0x0000d844                CI2SSoundBaseDevice::GetRangeMin() const
+                0x0000d850                CI2SSoundBaseDevice::GetRangeMax() const
+                0x0000d85c                CI2SSoundBaseDevice::GetController()
+                0x0000d864                CI2SSoundBaseDevice::Cancel()
+                0x0000d89c                CI2SSoundBaseDevice::IsActive() const
+                0x0000d8dc                CI2SSoundBaseDevice::TXCompletedHandler(bool, unsigned int*, unsigned int, void*)
+                0x0000d924                CI2SSoundBaseDevice::RXCompletedHandler(bool, unsigned int*, unsigned int, void*)
+                0x0000d970                CI2SSoundBaseDevice::RunI2S()
+                0x0000dafc                CI2SSoundBaseDevice::CI2SSoundBaseDevice(CInterruptSystem*, unsigned int, unsigned int, bool, CI2CMaster*, unsigned char, CI2SSoundBaseDevice::TDeviceMode, unsigned int)
+                0x0000dafc                CI2SSoundBaseDevice::CI2SSoundBaseDevice(CInterruptSystem*, unsigned int, unsigned int, bool, CI2CMaster*, unsigned char, CI2SSoundBaseDevice::TDeviceMode, unsigned int)
+                0x0000dd24                CI2SSoundBaseDevice::StopI2S()
+                0x0000ddc8                CI2SSoundBaseDevice::~CI2SSoundBaseDevice()
+                0x0000ddc8                CI2SSoundBaseDevice::~CI2SSoundBaseDevice()
+                0x0000de78                CI2SSoundBaseDevice::~CI2SSoundBaseDevice()
+                0x0000de98                CI2SSoundBaseDevice::ControllerFactory()
+                0x0000df54                CI2SSoundBaseDevice::Start()
+ .text._ZN16CSoundControllerD0Ev
+                0x0000e0bc       0x18 ../../lib/sound/libsound.a(i2ssoundbasedevice.o)
+                0x0000e0bc                CSoundController::~CSoundController()
+ .text._ZN16CSoundControllerD2Ev
+                0x0000e0d4        0x4 ../../lib/sound/libsound.a(i2ssoundbasedevice.o)
+                0x0000e0d4                CSoundController::~CSoundController()
+                0x0000e0d4                CSoundController::~CSoundController()
+ .text          0x0000e0d8      0x830 ../../lib/sound/libsound.a(wm8960soundcontroller.o)
+                0x0000e0d8                CWM8960SoundController::GetControlInfo(CSoundController::TControl, CSoundController::TJack, CSoundController::TChannel) const
+                0x0000e16c                CWM8960SoundController::EnableJack(CSoundController::TJack)
+                0x0000e234                CWM8960SoundController::DisableJack(CSoundController::TJack)
+                0x0000e2c4                CWM8960SoundController::CWM8960SoundController(CI2CMaster*, unsigned char, unsigned int, bool, bool)
+                0x0000e2c4                CWM8960SoundController::CWM8960SoundController(CI2CMaster*, unsigned char, unsigned int, bool, bool)
+                0x0000e320                CWM8960SoundController::WriteReg(unsigned char, unsigned short)
+                0x0000e3e4                CWM8960SoundController::Probe()
+                0x0000e6fc                CWM8960SoundController::SetControl(CSoundController::TControl, CSoundController::TJack, CSoundController::TChannel, int)
+ .text._ZNK22CWM8960SoundController19GetOutputPropertiesEv
+                0x0000e908       0x14 ../../lib/sound/libsound.a(wm8960soundcontroller.o)
+                0x0000e908                CWM8960SoundController::GetOutputProperties() const
+ .text._ZNK22CWM8960SoundController18GetInputPropertiesEv
+                0x0000e91c        0x8 ../../lib/sound/libsound.a(wm8960soundcontroller.o)
+                0x0000e91c                CWM8960SoundController::GetInputProperties() const
+ .text._ZN22CWM8960SoundControllerD2Ev
+                0x0000e924        0x4 ../../lib/sound/libsound.a(wm8960soundcontroller.o)
+                0x0000e924                CWM8960SoundController::~CWM8960SoundController()
+                0x0000e924                CWM8960SoundController::~CWM8960SoundController()
+ .text._ZN22CWM8960SoundControllerD0Ev
+                0x0000e928       0x18 ../../lib/sound/libsound.a(wm8960soundcontroller.o)
+                0x0000e928                CWM8960SoundController::~CWM8960SoundController()
+ .text          0x0000e940      0xadc ../../lib/sound/libsound.a(dmasoundbuffers.o)
+                0x0000e940                CDMASoundBuffers::CDMASoundBuffers(bool, unsigned int, TDREQ, unsigned int, CInterruptSystem*)
+                0x0000e940                CDMASoundBuffers::CDMASoundBuffers(bool, unsigned int, TDREQ, unsigned int, CInterruptSystem*)
+                0x0000e994                CDMASoundBuffers::~CDMASoundBuffers()
+                0x0000e994                CDMASoundBuffers::~CDMASoundBuffers()
+                0x0000ead0                CDMASoundBuffers::Cancel()
+                0x0000eb24                CDMASoundBuffers::IsActive() const
+                0x0000eb3c                CDMASoundBuffers::GetNextChunk(bool)
+                0x0000ec6c                CDMASoundBuffers::PutChunk()
+                0x0000ed14                CDMASoundBuffers::InterruptHandler()
+                0x0000eec0                CDMASoundBuffers::InterruptStub(void*)
+                0x0000eee8                CDMASoundBuffers::SetupDMAControlBlock(unsigned int)
+                0x0000f0a4                CDMASoundBuffers::Start(unsigned int (*)(bool, unsigned int*, unsigned int, void*), void*)
+ .text          0x0000f41c      0x1f8 ../../lib/libcircle.a(actled.o)
+                0x0000f41c                CActLED::CActLED(bool)
+                0x0000f41c                CActLED::CActLED(bool)
+                0x0000f4f4                CActLED::~CActLED()
+                0x0000f4f4                CActLED::~CActLED()
+                0x0000f508                CActLED::On()
+                0x0000f534                CActLED::Off()
+                0x0000f568                CActLED::Blink(unsigned int, unsigned int, unsigned int)
+                0x0000f604                CActLED::Get()
+ .text          0x0000f614      0x110 ../../lib/libcircle.a(alloc.o)
+                0x0000f614                malloc
+                0x0000f62c                memalign
+                0x0000f660                free
+                0x0000f678                calloc
+                0x0000f6d8                realloc
+                0x0000f6f8                palloc
+                0x0000f70c                pfree
+ .text          0x0000f724       0x84 ../../lib/libcircle.a(assert.o)
+                0x0000f724                assertion_failed
+ .text          0x0000f7a8      0x198 ../../lib/libcircle.a(debug.o)
+                0x0000f7a8                debug_hexdump(void const*, unsigned int, char const*)
+                0x0000f8b4                debug_stacktrace(unsigned int const*, char const*)
+ .text          0x0000f940      0x1d0 ../../lib/libcircle.a(device.o)
+                0x0000f940                CDevice::Read(void*, unsigned int)
+                0x0000f940                CDevice::Write(void const*, unsigned int)
+                0x0000f948                CDevice::Seek(unsigned long long)
+                0x0000f954                CDevice::GetSize() const
+                0x0000f960                CDevice::IOCtl(unsigned long, void*)
+                0x0000f968                CDevice::RemoveDevice()
+                0x0000f970                CDevice::~CDevice()
+                0x0000f970                CDevice::~CDevice()
+                0x0000f9fc                CDevice::~CDevice()
+                0x0000fa1c                CDevice::CDevice()
+                0x0000fa1c                CDevice::CDevice()
+                0x0000fa3c                CDevice::RegisterRemovedHandler(void (*)(CDevice*, void*), void*)
+                0x0000faac                CDevice::UnregisterRemovedHandler(void*)
+ .text          0x0000fb10      0x650 ../../lib/libcircle.a(devicenameservice.o)
+                0x0000fb10                CDeviceNameService::CDeviceNameService()
+                0x0000fb10                CDeviceNameService::CDeviceNameService()
+                0x0000fb54                CDeviceNameService::~CDeviceNameService()
+                0x0000fb54                CDeviceNameService::~CDeviceNameService()
+                0x0000fbb0                CDeviceNameService::AddDevice(char const*, CDevice*, bool)
+                0x0000fc64                CDeviceNameService::RemoveDevice(char const*, bool)
+                0x0000fd70                CDeviceNameService::GetDevice(char const*, bool)
+                0x0000fe6c                CDeviceNameService::EnumerateDevices(bool (*)(CDevice*, char const*, bool, void*), void*)
+                0x0000fef8                CDeviceNameService::Get()
+                0x0000ff28                CDeviceNameService::AddDevice(char const*, unsigned int, CDevice*, bool)
+                0x0000ff90                CDeviceNameService::RemoveDevice(char const*, unsigned int, bool)
+                0x0000fff0                CDeviceNameService::GetDevice(char const*, unsigned int, bool)
+                0x00010058                CDeviceNameService::ListDevices(CDevice*)
+ .text          0x00010160      0x8dc ../../lib/libcircle.a(koptions.o)
+                0x00010160                CKernelOptions::~CKernelOptions()
+                0x00010160                CKernelOptions::~CKernelOptions()
+                0x000101cc                CKernelOptions::GetWidth() const
+                0x000101d4                CKernelOptions::GetHeight() const
+                0x000101dc                CKernelOptions::GetLogDevice() const
+                0x000101e8                CKernelOptions::GetLogLevel() const
+                0x000101f0                CKernelOptions::GetKeyMap() const
+                0x000101f8                CKernelOptions::GetUSBPowerDelay() const
+                0x00010200                CKernelOptions::GetUSBFullSpeed() const
+                0x00010208                CKernelOptions::GetUSBBoost() const
+                0x00010210                CKernelOptions::GetUSBIgnore() const
+                0x0001021c                CKernelOptions::GetUSBSoundChannels() const
+                0x00010224                CKernelOptions::GetSoundDevice() const
+                0x00010230                CKernelOptions::GetSoundOption() const
+                0x00010238                CKernelOptions::GetCPUSpeed() const
+                0x00010240                CKernelOptions::GetSoCMaxTemp() const
+                0x00010248                CKernelOptions::GetGPIOFanPin() const
+                0x00010250                CKernelOptions::GetTouchScreen() const
+                0x00010264                CKernelOptions::GetBacklight() const
+                0x0001026c                CKernelOptions::GetAppOptionString(char const*, char const*) const
+                0x000102b8                CKernelOptions::Get()
+                0x000102c8                CKernelOptions::GetToken()
+                0x00010348                CKernelOptions::GetOptionValue(char*)
+                0x00010380                CKernelOptions::GetDecimal(char const*)
+                0x000103e8                CKernelOptions::GetAppOptionDecimal(char const*, unsigned int) const
+                0x00010444                CKernelOptions::GetDecimals(char*, unsigned int*, unsigned int)
+                0x00010514                CKernelOptions::CKernelOptions()
+                0x00010514                CKernelOptions::CKernelOptions()
+ .text          0x00010a3c      0x954 ../../lib/libcircle.a(logger.o)
+                0x00010a3c                CLogger::CLogger(unsigned int, CTimer*, bool)
+                0x00010a3c                CLogger::CLogger(unsigned int, CTimer*, bool)
+                0x00010aa0                CLogger::~CLogger()
+                0x00010aa0                CLogger::~CLogger()
+                0x00010b1c                CLogger::SetNewTarget(CDevice*)
+                0x00010b24                CLogger::Get()
+                0x00010ba4                CLogger::Write(char const*)
+                0x00010c9c                CLogger::WriteNoAlloc(char const*, TLogSeverity, char const*)
+                0x00010d7c                CLogger::Read(void*, unsigned int, bool)
+                0x00010e48                CLogger::WriteEvent(char const*, TLogSeverity, char const*)
+                0x00010fc4                CLogger::ReadEvent(TLogSeverity*, char*, char*, long*, unsigned int*, int*)
+                0x000110b8                CLogger::RegisterEventNotificationHandler(void (*)())
+                0x000110c0                CLogger::RegisterPanicHandler(void (*)())
+                0x000110c8                CLogger::WriteV(char const*, TLogSeverity, char const*, std::__va_list)
+                0x00011254                CLogger::Write(char const*, TLogSeverity, char const*, ...)
+                0x00011284                CLogger::Initialize(CDevice*)
+ .text          0x00011390      0x924 ../../lib/libcircle.a(machineinfo.o)
+                0x00011390                CMachineInfo::CMachineInfo()
+                0x00011390                CMachineInfo::CMachineInfo()
+                0x00011804                CMachineInfo::~CMachineInfo()
+                0x00011804                CMachineInfo::~CMachineInfo()
+                0x00011820                CMachineInfo::GetMachineModel() const
+                0x00011828                CMachineInfo::GetMachineName() const
+                0x0001183c                CMachineInfo::GetModelMajor() const
+                0x00011844                CMachineInfo::GetModelRevision() const
+                0x0001184c                CMachineInfo::GetSoCType() const
+                0x00011854                CMachineInfo::GetSoCStepping() const
+                0x0001185c                CMachineInfo::GetRAMSize() const
+                0x00011864                CMachineInfo::GetSoCName() const
+                0x0001187c                CMachineInfo::GetRevisionRaw() const
+                0x00011884                CMachineInfo::GetActLEDInfo() const
+                0x0001189c                CMachineInfo::GetClockRate(unsigned int) const
+                0x000119d8                CMachineInfo::GetGPIOPin(TGPIOVirtualPin) const
+                0x00011a70                CMachineInfo::GetGPIOClockSourceRate(unsigned int)
+                0x00011acc                CMachineInfo::GetDevice(TDeviceId) const
+                0x00011afc                CMachineInfo::ArePWMChannelsSwapped() const
+                0x00011b24                CMachineInfo::AllocateDMAChannel(unsigned int)
+                0x00011bfc                CMachineInfo::FreeDMAChannel(unsigned int)
+                0x00011c84                CMachineInfo::Get()
+ .text          0x00011cb4      0x418 ../../lib/libcircle.a(ptrlist.o)
+                0x00011cb4                CPtrList::CPtrList()
+                0x00011cb4                CPtrList::CPtrList()
+                0x00011cc0                CPtrList::~CPtrList()
+                0x00011cc0                CPtrList::~CPtrList()
+                0x00011ce8                CPtrList::GetFirst() const
+                0x00011cf0                CPtrList::GetNext(TPtrListElement*) const
+                0x00011d44                CPtrList::GetPtr(TPtrListElement*)
+                0x00011d98                CPtrList::InsertBefore(TPtrListElement*, void*)
+                0x00011e80                CPtrList::InsertAfter(TPtrListElement*, void*)
+                0x00011f64                CPtrList::Remove(TPtrListElement*)
+                0x00012074                CPtrList::Find(void*) const
+ .text          0x000120cc     0x125c ../../lib/libcircle.a(serial.o)
+                0x000120cc                CSerialDevice::Read(void*, unsigned int)
+                0x00012274                CSerialDevice::CSerialDevice(CInterruptSystem*, bool, unsigned int)
+                0x00012274                CSerialDevice::CSerialDevice(CInterruptSystem*, bool, unsigned int)
+                0x00012444                CSerialDevice::Initialize(unsigned int, unsigned int, unsigned int, CSerialDevice::TParity)
+                0x00012738                CSerialDevice::GetOptions() const
+                0x00012744                CSerialDevice::SetOptions(unsigned int)
+                0x00012750                CSerialDevice::SetParity(CSerialDevice::TParity)
+                0x00012878                CSerialDevice::IsTransmitting() const
+                0x000128c0                CSerialDevice::RegisterCharReceivedHandler(void (*)(unsigned char, int, void*), void*)
+                0x000128f8                CSerialDevice::RegisterMagicReceivedHandler(char const*, void (*)())
+                0x000129ac                CSerialDevice::AvailableForWrite()
+                0x00012a50                CSerialDevice::AvailableForRead()
+                0x00012af0                CSerialDevice::Peek()
+                0x00012bb4                CSerialDevice::Flush()
+                0x00012bd8                CSerialDevice::Write(unsigned char)
+                0x00012cc0                CSerialDevice::Write(void const*, unsigned int)
+                0x00012e78                CSerialDevice::InterruptHandler()
+                0x000130d0                CSerialDevice::InterruptStub(void*)
+                0x00013264                CSerialDevice::~CSerialDevice()
+                0x00013264                CSerialDevice::~CSerialDevice()
+                0x000132c0                CSerialDevice::~CSerialDevice()
+ .text          0x00013328     0x1960 ../../lib/libcircle.a(string.o)
+                0x00013328                CString::~CString()
+                0x00013328                CString::~CString()
+                0x00013354                CString::~CString()
+                0x000133f4                CString::CString()
+                0x000133f4                CString::CString()
+                0x0001340c                CString::CString(char const*)
+                0x0001340c                CString::CString(char const*)
+                0x0001344c                CString::CString(CString const&)
+                0x0001344c                CString::CString(CString const&)
+                0x000134a4                CString::CString(CString&&)
+                0x000134a4                CString::CString(CString&&)
+                0x000134d0                CString::operator char const*() const
+                0x000134e8                CString::operator=(char const*)
+                0x0001352c                CString::operator=(CString const&)
+                0x00013588                CString::operator=(CString&&)
+                0x000135c8                CString::c_str() const
+                0x000135e0                CString::GetLength() const
+                0x000135f0                CString::Append(char const*)
+                0x00013674                CString::operator+=(char const*)
+                0x00013688                CString::operator+=(CString const&)
+                0x000136b0                CString::Append(char)
+                0x000136d8                CString::operator+=(char)
+                0x00013708                CString::Compare(char const*) const
+                0x00013710                CString::Find(char) const
+                0x00013744                CString::Replace(char const*, char const*)
+                0x000138e0                CString::PutChar(char, unsigned int)
+                0x00013920                CString::PutString(char const*)
+                0x00013964                CString::ReserveSpace(unsigned int)
+                0x000139d4                CString::ntoa(char*, unsigned long, unsigned int, bool)
+                0x00013a98                CString::lltoa(char*, unsigned long long, unsigned int, bool)
+                0x00013bdc                CString::ftoa(char*, double, unsigned int)
+                0x00013e68                CString::FormatV(char const*, std::__va_list)
+                0x00014c5c                CString::Format(char const*, ...)
+ .text          0x00014c88      0x1b8 ../../lib/libcircle.a(sysinit.o)
+                0x00014c88                __aeabi_atexit
+                0x00014c8c                __errno
+                0x00014c98                set_qemu_exit_status
+                0x00014c9c                halt
+                0x00014ca8                error_halt
+                0x00014ce0                reboot
+                0x00014d0c                sysinit
+ .text          0x00014e40      0xdf0 ../../lib/libcircle.a(timer.o)
+                0x00014e40                CTimer::CTimer(CInterruptSystem*)
+                0x00014e40                CTimer::CTimer(CInterruptSystem*)
+                0x00014ec8                CTimer::~CTimer()
+                0x00014ec8                CTimer::~CTimer()
+                0x00014f9c                CTimer::SetTimeZone(int)
+                0x00014fc4                CTimer::GetTimeZone() const
+                0x00014fcc                CTimer::SetTime(unsigned int, bool)
+                0x00015068                CTimer::GetClockTicks()
+                0x00015084                CTimer::GetClockTicks64()
+                0x000150b8                CTimer::GetTicks() const
+                0x000150c0                CTimer::GetUptime() const
+                0x000150c8                CTimer::GetTime() const
+                0x000150d0                CTimer::GetLocalTime(unsigned int*, unsigned int*)
+                0x00015194                CTimer::GetUniversalTime() const
+                0x000151b4                CTimer::GetUniversalTime(unsigned int*, unsigned int*)
+                0x00015294                CTimer::GetTimeString()
+                0x00015480                CTimer::StartKernelTimer(unsigned int, void (*)(unsigned int, void*, void*), void*, void*)
+                0x000155d8                CTimer::CancelKernelTimer(unsigned int)
+                0x00015680                CTimer::PollKernelTimers()
+                0x000157a4                CTimer::InterruptHandler()
+                0x000158c8                CTimer::InterruptHandler(void*)
+                0x000158f0                CTimer::TuneMsDelay()
+                0x000159a0                CTimer::Initialize()
+                0x00015a20                CTimer::RegisterUpdateTimeHandler(bool (*)(unsigned int, unsigned int))
+                0x00015a6c                CTimer::RegisterPeriodicHandler(void (*)())
+                0x00015adc                CTimer::SimpleMsDelay(unsigned int)
+                0x00015b28                CTimer::SimpleusDelay(unsigned int)
+                0x00015b64                CTimer::IsLeapYear(unsigned int)
+                0x00015ba8                CTimer::GetDaysOfMonth(unsigned int, unsigned int)
+                0x00015c00                CTimer::Get()
+ .text          0x00015c30      0x8b0 ../../lib/libcircle.a(util.o)
+                0x00015c30                memmove
+                0x00015c68                memcmp
+                0x00015cb8                strlen
+                0x00015ce0                strcmp
+                0x00015d50                strcasecmp
+                0x00015dd8                strncmp
+                0x00015e58                strncasecmp
+                0x00015f3c                strcpy
+                0x00015f68                strncpy
+                0x00015f9c                strcat
+                0x00015fe0                strncat
+                0x0001603c                strchr
+                0x00016064                strstr
+                0x000160c8                strtok_r
+                0x000161a4                strtoul
+                0x0001631c                strtoull
+                0x000164d0                atoi
+                0x000164dc                char2int
+ .text          0x000164e0       0xb8 ../../lib/libcircle.a(util_fast.o)
+                0x000164e0                memset
+                0x0001653c                memcpy
+ .text          0x00016598      0x2a0 ../../lib/libcircle.a(virtualgpiopin.o)
+                0x00016598                CVirtualGPIOPin::~CVirtualGPIOPin()
+                0x00016598                CVirtualGPIOPin::~CVirtualGPIOPin()
+                0x0001659c                CVirtualGPIOPin::~CVirtualGPIOPin()
+                0x000165b4                CVirtualGPIOPin::Write(unsigned int)
+                0x000166d8                CVirtualGPIOPin::CVirtualGPIOPin(unsigned int, bool)
+                0x000166d8                CVirtualGPIOPin::CVirtualGPIOPin(unsigned int, bool)
+                0x0001682c                CVirtualGPIOPin::Invert()
+ .text.startup  0x00016838       0x14 ../../lib/libcircle.a(virtualgpiopin.o)
+ .text          0x0001684c       0xbc ../../lib/libcircle.a(chainboot.o)
+                0x00016894                EnableChainBoot
+                0x000168dc                IsChainBootEnabled
+                0x000168f4                DoChainBoot
+ .text          0x00016908       0xf0 ../../lib/libcircle.a(new.o)
+                0x00016908                operator new(unsigned int, int)
+                0x00016930                operator new[](unsigned int, int)
+                0x00016958                operator new(unsigned int, void*)
+                0x00016960                operator new[](unsigned int, void*)
+                0x00016968                operator new(unsigned int)
+                0x00016980                operator new[](unsigned int)
+                0x00016998                operator delete(void*)
+                0x000169b0                operator delete[](void*)
+                0x000169c8                operator delete(void*, unsigned int)
+                0x000169e0                operator delete[](void*, unsigned int)
+ .text          0x000169f8      0x458 ../../lib/libcircle.a(heapallocator.o)
+                0x000169f8                CHeapAllocator::CHeapAllocator(char const*)
+                0x000169f8                CHeapAllocator::CHeapAllocator(char const*)
+                0x00016a5c                CHeapAllocator::~CHeapAllocator()
+                0x00016a5c                CHeapAllocator::~CHeapAllocator()
+                0x00016a60                CHeapAllocator::Setup(unsigned int, unsigned int, unsigned int)
+                0x00016a6c                CHeapAllocator::GetFreeSpace() const
+                0x00016a78                CHeapAllocator::Allocate(unsigned int)
+                0x00016c5c                CHeapAllocator::Free(void*)
+                0x00016d68                CHeapAllocator::ReAllocate(void*, unsigned int)
+ .text          0x00016e50      0x1bc ../../lib/libcircle.a(pageallocator.o)
+                0x00016e50                CPageAllocator::CPageAllocator()
+                0x00016e50                CPageAllocator::CPageAllocator()
+                0x00016e6c                CPageAllocator::~CPageAllocator()
+                0x00016e6c                CPageAllocator::~CPageAllocator()
+                0x00016e70                CPageAllocator::Setup(unsigned int, unsigned int)
+                0x00016ed8                CPageAllocator::GetFreeSpace() const
+                0x00016ee4                CPageAllocator::Allocate()
+                0x00016fac                CPageAllocator::Free(void*)
+ .text          0x0001700c      0x368 ../../lib/libcircle.a(exceptionhandler.o)
+                0x0001700c                CExceptionHandler::~CExceptionHandler()
+                0x0001700c                CExceptionHandler::~CExceptionHandler()
+                0x00017020                CExceptionHandler::~CExceptionHandler()
+                0x00017048                CExceptionHandler::Throw(unsigned int)
+                0x00017088                CExceptionHandler::Throw(unsigned int, TAbortFrame*)
+                0x00017178                CExceptionHandler::CExceptionHandler()
+                0x00017178                CExceptionHandler::CExceptionHandler()
+                0x0001724c                CExceptionHandler::Get()
+                0x0001727c                ExceptionHandler
+                0x000172dc                raise
+ .text          0x00017374      0x188 ../../lib/libcircle.a(exceptionstub.o)
+                0x00017374                UndefinedInstructionInternal
+                0x000173c4                PrefetchAbortStub
+                0x00017414                DataAbortStub
+                0x00017464                UndefinedInstructionStub
+                0x00017480                IRQStub
+                0x00017498                FIQStub
+ .text          0x000174fc      0x2e0 ../../lib/libcircle.a(memory.o)
+                0x000174fc                CMemorySystem::Destructor()
+                0x0001754c                CMemorySystem::~CMemorySystem()
+                0x0001754c                CMemorySystem::~CMemorySystem()
+                0x00017570                CMemorySystem::GetMemSize() const
+                0x000175a8                CMemorySystem::Get()
+                0x000175d4                CMemorySystem::EnableMMU()
+                0x0001768c                CMemorySystem::CMemorySystem(bool)
+                0x0001768c                CMemorySystem::CMemorySystem(bool)
+                0x000177d0                CMemorySystem::GetCoherentPage(unsigned int)
+ .text          0x000177dc       0x9c ../../lib/libcircle.a(pagetable.o)
+                0x000177dc                CPageTable::CPageTable(unsigned int)
+                0x000177dc                CPageTable::CPageTable(unsigned int)
+                0x00017868                CPageTable::~CPageTable()
+                0x00017868                CPageTable::~CPageTable()
+                0x0001786c                CPageTable::GetBaseAddress() const
+ .text          0x00017878        0x0 ../../lib/libcircle.a(startup.o)
+ .text          0x00017878      0x174 ../../lib/libcircle.a(synchronize.o)
+                0x00017878                CurrentExecutionLevel
+                0x00017890                EnterCritical
+                0x00017938                LeaveCritical
+                0x00017990                CleanAndInvalidateDataCacheRange
+                0x000179cc                SyncDataAndInstructionCache
+ .text          0x000179ec      0x7a4 ../../lib/libcircle.a(interrupt.o)
+                0x000179ec                CInterruptSystem::CInterruptSystem()
+                0x000179ec                CInterruptSystem::CInterruptSystem()
+                0x00017a20                CInterruptSystem::~CInterruptSystem()
+                0x00017a20                CInterruptSystem::~CInterruptSystem()
+                0x00017a68                CInterruptSystem::Destructor()
+                0x00017ab0                CInterruptSystem::Initialize()
+                0x00017b68                CInterruptSystem::ConnectIRQ(unsigned int, void (*)(void*), void*)
+                0x00017c20                CInterruptSystem::DisconnectIRQ(unsigned int)
+                0x00017cdc                CInterruptSystem::ConnectFIQ(unsigned int, void (*)(void*), void*)
+                0x00017dac                CInterruptSystem::DisconnectFIQ()
+                0x00017e2c                CInterruptSystem::EnableIRQ(unsigned int)
+                0x00017ea0                CInterruptSystem::DisableIRQ(unsigned int)
+                0x00017f14                CInterruptSystem::EnableFIQ(unsigned int)
+                0x00017f5c                CInterruptSystem::DisableFIQ()
+                0x00017f78                CInterruptSystem::Get()
+                0x00017fa8                CInterruptSystem::CallIRQHandler(unsigned int)
+                0x0001803c                CInterruptSystem::InterruptHandler()
+                0x00018178                InterruptHandler
+ .text          0x00018190      0x238 ../../lib/libcircle.a(gpioclock.o)
+                0x00018190                CGPIOClock::CGPIOClock(TGPIOClock, TGPIOClockSource)
+                0x00018190                CGPIOClock::CGPIOClock(TGPIOClock, TGPIOClockSource)
+                0x000181b8                CGPIOClock::~CGPIOClock()
+                0x000181b8                CGPIOClock::~CGPIOClock()
+                0x000181f4                CGPIOClock::Start(unsigned int, unsigned int, unsigned int)
+                0x000182f8                CGPIOClock::StartRate(unsigned int)
+                0x0001838c                CGPIOClock::Stop()
+ .text          0x000183c8      0xdbc ../../lib/libcircle.a(gpiopin.o)
+                0x000183c8                CGPIOPin::~CGPIOPin()
+                0x000183c8                CGPIOPin::~CGPIOPin()
+                0x000183cc                CGPIOPin::~CGPIOPin()
+                0x000183e4                CGPIOPin::CGPIOPin()
+                0x000183e4                CGPIOPin::CGPIOPin()
+                0x0001841c                CGPIOPin::AssignPin(unsigned int)
+                0x000184a0                CGPIOPin::Write(unsigned int)
+                0x00018530                CGPIOPin::Read() const
+                0x000185a8                CGPIOPin::Invert()
+                0x00018640                CGPIOPin::ConnectInterrupt(void (*)(void*), void*, bool)
+                0x00018710                CGPIOPin::DisconnectInterrupt()
+                0x000187c0                CGPIOPin::EnableInterrupt(TGPIOInterrupt)
+                0x000188b8                CGPIOPin::DisableInterrupt()
+                0x00018968                CGPIOPin::EnableInterrupt2(TGPIOInterrupt)
+                0x00018a70                CGPIOPin::DisableInterrupt2()
+                0x00018b20                CGPIOPin::AcknowledgeInterrupt()
+                0x00018b84                CGPIOPin::SetModeAll(unsigned int, unsigned int)
+                0x00018c5c                CGPIOPin::WriteAll(unsigned int, unsigned int)
+                0x00018c8c                CGPIOPin::ReadAll()
+                0x00018ca8                CGPIOPin::SetPullMode(TGPIOPullMode)
+                0x00018d4c                CGPIOPin::SetAlternateFunction(unsigned int)
+                0x00018e10                CGPIOPin::SetMode(TGPIOMode, bool)
+                0x00018fc8                CGPIOPin::CGPIOPin(unsigned int, TGPIOMode, CGPIOManager*)
+                0x00018fc8                CGPIOPin::CGPIOPin(unsigned int, TGPIOMode, CGPIOManager*)
+                0x0001906c                CGPIOPin::InterruptHandler()
+                0x000190f4                CGPIOPin::DisableAllInterrupts(unsigned int)
+ .text.startup  0x00019184       0x14 ../../lib/libcircle.a(gpiopin.o)
+ .text          0x00019198      0x8a4 ../../lib/libcircle.a(i2cmaster.o)
+                0x00019198                CI2CMaster::CI2CMaster(unsigned int, bool, unsigned int)
+                0x00019198                CI2CMaster::CI2CMaster(unsigned int, bool, unsigned int)
+                0x000192f0                CI2CMaster::Initialize()
+                0x00019348                CI2CMaster::SetClock(unsigned int)
+                0x000193b0                CI2CMaster::Read(unsigned char, void*, unsigned int)
+                0x00019594                CI2CMaster::Write(unsigned char, void const*, unsigned int)
+                0x00019740                CI2CMaster::WriteReadRepeatedStart(unsigned char, void const*, unsigned int, void*, unsigned int)
+                0x000199cc                CI2CMaster::~CI2CMaster()
+                0x000199cc                CI2CMaster::~CI2CMaster()
+ .text          0x00019a3c      0x238 ../../lib/libcircle.a(bcmpropertytags.o)
+                0x00019a3c                CBcmPropertyTags::CBcmPropertyTags(bool)
+                0x00019a3c                CBcmPropertyTags::CBcmPropertyTags(bool)
+                0x00019a58                CBcmPropertyTags::~CBcmPropertyTags()
+                0x00019a58                CBcmPropertyTags::~CBcmPropertyTags()
+                0x00019a6c                CBcmPropertyTags::GetTags(void*, unsigned int)
+                0x00019b80                CBcmPropertyTags::GetTag(unsigned int, void*, unsigned int, unsigned int)
+ *fill*         0x00019c74        0x4 
+ .text          0x00019c78       0x14 ../../lib/libcircle.a(delayloop.o)
+                0x00019c78                DelayLoop
+ .text          0x00019c8c      0x334 ../../lib/libcircle.a(gpiomanager.o)
+                0x00019c8c                CGPIOManager::CGPIOManager(CInterruptSystem*)
+                0x00019c8c                CGPIOManager::CGPIOManager(CInterruptSystem*)
+                0x00019cb0                CGPIOManager::~CGPIOManager()
+                0x00019cb0                CGPIOManager::~CGPIOManager()
+                0x00019d2c                CGPIOManager::Initialize()
+                0x00019d98                CGPIOManager::ConnectInterrupt(CGPIOPin*)
+                0x00019e28                CGPIOManager::DisconnectInterrupt(CGPIOPin*)
+                0x00019ebc                CGPIOManager::InterruptHandler()
+                0x00019f98                CGPIOManager::InterruptStub(void*)
+ .text          0x00019fc0      0x1d4 ../../lib/libcircle.a(bcmmailbox.o)
+                0x00019fc0                CBcmMailBox::CBcmMailBox(unsigned int, bool)
+                0x00019fc0                CBcmMailBox::CBcmMailBox(unsigned int, bool)
+                0x00019fcc                CBcmMailBox::~CBcmMailBox()
+                0x00019fcc                CBcmMailBox::~CBcmMailBox()
+                0x00019fd0                CBcmMailBox::WriteRead(unsigned int)
+                0x0001a0e8                CBcmMailBox::Flush()
+                0x0001a11c                CBcmMailBox::Read()
+                0x0001a14c                CBcmMailBox::Write(unsigned int)
+ .text.startup  0x0001a194       0x14 ../../lib/libcircle.a(bcmmailbox.o)
+ .text          0x0001a1a8      0x20c /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_udivsi3.o)
+                0x0001a1a8                __udivsi3
+                0x0001a1a8                __aeabi_uidiv
+                0x0001a394                __aeabi_uidivmod
+ .text          0x0001a3b4        0x4 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_dvmd_tls.o)
+                0x0001a3b4                __aeabi_ldiv0
+                0x0001a3b4                __aeabi_idiv0
+ .text          0x0001a3b8       0x3c /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_aeabi_uldivmod.o)
+                0x0001a3b8                __aeabi_uldivmod
+ .text          0x0001a3f4        0x0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_paritysi2.o)
+ .text.__paritysi2
+                0x0001a3f4       0x24 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_paritysi2.o)
+                0x0001a3f4                __paritysi2
+ .text          0x0001a418        0x0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_udivmoddi4.o)
+ .text.__udivmoddi4
+                0x0001a418      0x120 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_udivmoddi4.o)
+                0x0001a418                __udivmoddi4
+ .text          0x0001a538        0x0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sinf.o)
+ .text.sinf     0x0001a538      0x22c /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sinf.o)
+                0x0001a538                sinf
+ .text          0x0001a764        0x0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-cosf.o)
+ *fill*         0x0001a764        0x4 
+ .text.cosf     0x0001a768      0x24c /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-cosf.o)
+                0x0001a768                cosf
+ .text          0x0001a9b4        0x0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sincosf_data.o)
+ .text          0x0001a9b4        0x0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-math_errf.o)
+ .text.with_errnof
+                0x0001a9b4       0x24 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-math_errf.o)
+ .text.xflowf   0x0001a9d8       0x18 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-math_errf.o)
+ .text.__math_uflowf
+                0x0001a9f0        0xc /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-math_errf.o)
+                0x0001a9f0                __math_uflowf
+ .text.__math_may_uflowf
+                0x0001a9fc        0xc /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-math_errf.o)
+                0x0001a9fc                __math_may_uflowf
+ .text.__math_oflowf
+                0x0001aa08        0xc /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-math_errf.o)
+                0x0001aa08                __math_oflowf
+ .text.__math_divzerof
+                0x0001aa14       0x30 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-math_errf.o)
+                0x0001aa14                __math_divzerof
+ .text.__math_invalidf
+                0x0001aa44       0x1c /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-math_errf.o)
+                0x0001aa44                __math_invalidf
+ .text          0x0001aa60        0x0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sf_fmax.o)
+ .text.fmaxf    0x0001aa60       0x50 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sf_fmax.o)
+                0x0001aa60                fmaxf
+ .text          0x0001aab0        0x0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sf_fmin.o)
+ .text.fminf    0x0001aab0       0x50 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sf_fmin.o)
+                0x0001aab0                fminf
+ .text          0x0001ab00        0x0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sf_fpclassify.o)
+ .text.__fpclassifyf
+                0x0001ab00       0x5c /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sf_fpclassify.o)
+                0x0001ab00                __fpclassifyf
+ .text          0x0001ab5c        0x0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sf_floor.o)
+ .text.floorf   0x0001ab5c       0xc0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sf_floor.o)
+                0x0001ab5c                floorf
+ .text          0x0001ac1c      0x3c0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_arm_addsubdf3.o)
+                0x0001ac1c                __aeabi_drsub
+                0x0001ac24                __subdf3
+                0x0001ac24                __aeabi_dsub
+                0x0001ac28                __aeabi_dadd
+                0x0001ac28                __adddf3
+                0x0001aed4                __aeabi_ui2d
+                0x0001aed4                __floatunsidf
+                0x0001aef8                __floatsidf
+                0x0001aef8                __aeabi_i2d
+                0x0001af20                __extendsfdf2
+                0x0001af20                __aeabi_f2d
+                0x0001af68                __aeabi_ul2d
+                0x0001af68                __floatundidf
+                0x0001af7c                __aeabi_l2d
+                0x0001af7c                __floatdidf
+                0x0001afdc                        _etext = .
+
+.glue_7         0x0001afdc        0x0
+ .glue_7        0x0001afdc        0x0 linker stubs
+
+.glue_7t        0x0001afdc        0x0
+ .glue_7t       0x0001afdc        0x0 linker stubs
+
+.vfp11_veneer   0x0001afdc        0x0
+ .vfp11_veneer  0x0001afdc        0x0 linker stubs
+
+.v4_bx          0x0001afdc        0x0
+ .v4_bx         0x0001afdc        0x0 linker stubs
+
+.iplt           0x0001afdc        0x0
+ .iplt          0x0001afdc        0x0 audio.o
+
+.rodata         0x0001afe0     0x3e50
+ *(.rodata*)
+ .rodata        0x0001afe0     0x1bb8 audio.o
+                0x0001afe0                vtable for CAudio
+ .rodata        0x0001cb98       0x71 kernel.o
+ *fill*         0x0001cc09        0x3 
+ .rodata.str1.4
+                0x0001cc0c      0xe47 ../../lib/sound/libsound.a(soundbasedevice.o)
+                                0x4ea (size before relaxing)
+ *fill*         0x0001da53        0x1 
+ .rodata        0x0001da54       0x50 ../../lib/sound/libsound.a(soundbasedevice.o)
+                0x0001da54                vtable for CSoundBaseDevice
+ .rodata        0x0001daa4      0x12f ../../lib/sound/libsound.a(i2ssoundbasedevice.o)
+                0x0001dac8                vtable for CI2SSoundBaseDevice
+ .rodata.str1.4
+                0x0001dbd3       0x80 ../../lib/sound/libsound.a(wm8960soundcontroller.o)
+ *fill*         0x0001dbd3        0x1 
+ .rodata        0x0001dbd4       0x52 ../../lib/sound/libsound.a(wm8960soundcontroller.o)
+                0x0001dbf8                vtable for CWM8960SoundController
+ *fill*         0x0001dc26        0x2 
+ .rodata        0x0001dc28      0x284 ../../lib/sound/libsound.a(dmasoundbuffers.o)
+ .rodata        0x0001deac       0x39 ../../lib/libcircle.a(alloc.o)
+ .rodata.str1.4
+                0x0001dee5       0x1d ../../lib/libcircle.a(assert.o)
+ .rodata.str1.4
+                0x0001dee5       0x93 ../../lib/libcircle.a(debug.o)
+ *fill*         0x0001dee5        0x3 
+ .rodata        0x0001dee8        0x6 ../../lib/libcircle.a(debug.o)
+ .rodata.str1.4
+                0x0001deee       0x4e ../../lib/libcircle.a(device.o)
+ *fill*         0x0001deee        0x2 
+ .rodata        0x0001def0       0x28 ../../lib/libcircle.a(device.o)
+                0x0001def0                vtable for CDevice
+ .rodata.str1.4
+                0x0001df18       0x96 ../../lib/libcircle.a(devicenameservice.o)
+ .rodata.str1.4
+                0x0001df18       0xde ../../lib/libcircle.a(koptions.o)
+ .rodata        0x0001df18        0x2 ../../lib/libcircle.a(koptions.o)
+ *fill*         0x0001df1a        0x2 
+ .rodata        0x0001df1c       0x94 ../../lib/libcircle.a(logger.o)
+ .rodata        0x0001dfb0      0x507 ../../lib/libcircle.a(machineinfo.o)
+ .rodata.str1.4
+                0x0001e4b7      0x176 ../../lib/libcircle.a(ptrlist.o)
+ *fill*         0x0001e4b7        0x1 
+ .rodata        0x0001e4b8      0x1bc ../../lib/libcircle.a(serial.o)
+                0x0001e4dc                vtable for CSerialDevice
+ .rodata.str1.4
+                0x0001e674       0x17 ../../lib/libcircle.a(string.o)
+ .rodata        0x0001e674       0x10 ../../lib/libcircle.a(string.o)
+                0x0001e674                vtable for CString
+ .rodata.str1.4
+                0x0001e684        0x3 ../../lib/libcircle.a(sysinit.o)
+ .rodata.str1.4
+                0x0001e684      0x1d4 ../../lib/libcircle.a(timer.o)
+ .rodata        0x0001e684       0x36 ../../lib/libcircle.a(timer.o)
+                0x0001e684                CTimer::s_nDaysOfMonth
+ *fill*         0x0001e6ba        0x2 
+ .rodata        0x0001e6bc       0x30 ../../lib/libcircle.a(virtualgpiopin.o)
+                0x0001e6dc                vtable for CVirtualGPIOPin
+ .rodata.str1.4
+                0x0001e6ec       0x7b ../../lib/libcircle.a(heapallocator.o)
+ .rodata        0x0001e6ec       0x48 ../../lib/libcircle.a(pageallocator.o)
+ .rodata.str1.4
+                0x0001e734       0xe4 ../../lib/libcircle.a(exceptionhandler.o)
+ .rodata        0x0001e734       0x20 ../../lib/libcircle.a(exceptionhandler.o)
+                0x0001e73c                vtable for CExceptionHandler
+ .rodata        0x0001e754       0x90 ../../lib/libcircle.a(memory.o)
+ .rodata.str1.4
+                0x0001e7e4       0xb5 ../../lib/libcircle.a(synchronize.o)
+ .rodata.str1.4
+                0x0001e7e4       0xbd ../../lib/libcircle.a(interrupt.o)
+ .rodata        0x0001e7e4       0xbc ../../lib/libcircle.a(gpioclock.o)
+ .rodata        0x0001e8a0      0x301 ../../lib/libcircle.a(gpiopin.o)
+                0x0001e8a0                vtable for CGPIOPin
+ *fill*         0x0001eba1        0x3 
+ .rodata        0x0001eba4       0xae ../../lib/libcircle.a(i2cmaster.o)
+ *fill*         0x0001ec52        0x2 
+ .rodata        0x0001ec54       0x98 ../../lib/libcircle.a(bcmpropertytags.o)
+ .rodata.str1.4
+                0x0001ecec       0x9c ../../lib/libcircle.a(gpiomanager.o)
+ .rodata.str1.4
+                0x0001ecec       0x23 ../../lib/libcircle.a(bcmmailbox.o)
+ .rodata.__inv_pio4
+                0x0001ecec       0x60 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sincosf_data.o)
+                0x0001ecec                __inv_pio4
+ *fill*         0x0001ed4c        0x4 
+ .rodata.__sincosf_table
+                0x0001ed50       0xe0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sincosf_data.o)
+                0x0001ed50                __sincosf_table
+
+.ARM.extab.text.__udivmoddi4
+                0x0001ee30        0x0
+ .ARM.extab.text.__udivmoddi4
+                0x0001ee30        0x0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_udivmoddi4.o)
+
+.init_array     0x0001ee30        0xc
+                0x0001ee30                        __init_start = .
+ *(.init_array*)
+ .init_array    0x0001ee30        0x4 ../../lib/libcircle.a(virtualgpiopin.o)
+ .init_array    0x0001ee34        0x4 ../../lib/libcircle.a(gpiopin.o)
+ .init_array    0x0001ee38        0x4 ../../lib/libcircle.a(bcmmailbox.o)
+                0x0001ee3c                        __init_end = .
+
+.ARM.exidx      0x0001ee3c        0x8
+                0x0001ee3c                        __exidx_start = .
+ *(.ARM.exidx*)
+ .ARM.exidx.text.__udivmoddi4
+                0x0001ee3c        0x8 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_udivmoddi4.o)
+                0x0001ee44                        __exidx_end = .
+
+.rel.dyn        0x0001ee44        0x0
+ .rel.iplt      0x0001ee44        0x0 audio.o
+
+.eh_frame
+ *(.eh_frame*)
+
+.data           0x0001ee44       0x98
+ *(.data*)
+ .data          0x0001ee44        0x0 dsp.o
+ .data          0x0001ee44       0x28 audio.o
+                0x0001ee44                ui_glue
+ .data          0x0001ee6c        0x0 kernel.o
+ .data          0x0001ee6c        0x0 main.o
+ .data          0x0001ee6c        0x0 ../../lib/sound/libsound.a(soundbasedevice.o)
+ .data          0x0001ee6c        0x0 ../../lib/sound/libsound.a(i2ssoundbasedevice.o)
+ .data          0x0001ee6c        0x0 ../../lib/sound/libsound.a(wm8960soundcontroller.o)
+ .data          0x0001ee6c        0x0 ../../lib/sound/libsound.a(dmasoundbuffers.o)
+ .data          0x0001ee6c        0x0 ../../lib/libcircle.a(actled.o)
+ .data          0x0001ee6c        0x0 ../../lib/libcircle.a(alloc.o)
+ .data          0x0001ee6c        0x0 ../../lib/libcircle.a(assert.o)
+ .data          0x0001ee6c        0x0 ../../lib/libcircle.a(debug.o)
+ .data          0x0001ee6c        0x0 ../../lib/libcircle.a(device.o)
+ .data          0x0001ee6c        0x0 ../../lib/libcircle.a(devicenameservice.o)
+ .data          0x0001ee6c        0x0 ../../lib/libcircle.a(koptions.o)
+ .data          0x0001ee6c        0x0 ../../lib/libcircle.a(logger.o)
+ .data          0x0001ee6c        0x0 ../../lib/libcircle.a(machineinfo.o)
+ .data          0x0001ee6c        0x0 ../../lib/libcircle.a(ptrlist.o)
+ .data          0x0001ee6c        0x0 ../../lib/libcircle.a(serial.o)
+ .data          0x0001ee6c        0x0 ../../lib/libcircle.a(string.o)
+ .data          0x0001ee6c        0x0 ../../lib/libcircle.a(sysinit.o)
+ .data          0x0001ee6c       0x30 ../../lib/libcircle.a(timer.o)
+                0x0001ee6c                CTimer::s_pMonthName
+ .data          0x0001ee9c        0x0 ../../lib/libcircle.a(util.o)
+ .data          0x0001ee9c        0x0 ../../lib/libcircle.a(util_fast.o)
+ .data          0x0001ee9c        0x0 ../../lib/libcircle.a(virtualgpiopin.o)
+ .data          0x0001ee9c        0x0 ../../lib/libcircle.a(chainboot.o)
+ .data          0x0001ee9c        0x0 ../../lib/libcircle.a(new.o)
+ .data          0x0001ee9c       0x1c ../../lib/libcircle.a(heapallocator.o)
+                0x0001ee9c                CHeapAllocator::s_nBucketSize
+ .data          0x0001eeb8        0x0 ../../lib/libcircle.a(pageallocator.o)
+ .data          0x0001eeb8       0x14 ../../lib/libcircle.a(exceptionhandler.o)
+                0x0001eeb8                CExceptionHandler::s_pExceptionName
+ .data          0x0001eecc       0x10 ../../lib/libcircle.a(exceptionstub.o)
+                0x0001eecc                FIQData
+                0x0001eed8                IRQReturnAddress
+ .data          0x0001eedc        0x0 ../../lib/libcircle.a(memory.o)
+ .data          0x0001eedc        0x0 ../../lib/libcircle.a(pagetable.o)
+ .data          0x0001eedc        0x0 ../../lib/libcircle.a(startup.o)
+ .data          0x0001eedc        0x0 ../../lib/libcircle.a(synchronize.o)
+ .data          0x0001eedc        0x0 ../../lib/libcircle.a(interrupt.o)
+ .data          0x0001eedc        0x0 ../../lib/libcircle.a(gpioclock.o)
+ .data          0x0001eedc        0x0 ../../lib/libcircle.a(gpiopin.o)
+ .data          0x0001eedc        0x0 ../../lib/libcircle.a(i2cmaster.o)
+ .data          0x0001eedc        0x0 ../../lib/libcircle.a(bcmpropertytags.o)
+ .data          0x0001eedc        0x0 ../../lib/libcircle.a(delayloop.o)
+ .data          0x0001eedc        0x0 ../../lib/libcircle.a(gpiomanager.o)
+ .data          0x0001eedc        0x0 ../../lib/libcircle.a(bcmmailbox.o)
+ .data          0x0001eedc        0x0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_udivsi3.o)
+ .data          0x0001eedc        0x0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_dvmd_tls.o)
+ .data          0x0001eedc        0x0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_aeabi_uldivmod.o)
+ .data          0x0001eedc        0x0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_paritysi2.o)
+ .data          0x0001eedc        0x0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_udivmoddi4.o)
+ .data          0x0001eedc        0x0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sinf.o)
+ .data          0x0001eedc        0x0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-cosf.o)
+ .data          0x0001eedc        0x0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sincosf_data.o)
+ .data          0x0001eedc        0x0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-math_errf.o)
+ .data          0x0001eedc        0x0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sf_fmax.o)
+ .data          0x0001eedc        0x0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sf_fmin.o)
+ .data          0x0001eedc        0x0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sf_fpclassify.o)
+ .data          0x0001eedc        0x0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sf_floor.o)
+ .data          0x0001eedc        0x0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_arm_addsubdf3.o)
+
+.igot.plt       0x0001eedc        0x0
+ .igot.plt      0x0001eedc        0x0 audio.o
+
+.bss            0x0001eee0     0x1d24
+                0x0001eee0                        __bss_start = .
+ *(.bss*)
+ .bss           0x0001eee0        0x0 dsp.o
+ .bss           0x0001eee0     0x1c6c audio.o
+                0x0001f6e8                inBuffers
+                0x0001f6ec                outBuffers
+                0x0001f6f0                dsp
+ .bss           0x00020b4c        0x0 kernel.o
+ .bss           0x00020b4c        0x0 main.o
+ .bss           0x00020b4c        0x0 ../../lib/sound/libsound.a(soundbasedevice.o)
+ .bss           0x00020b4c        0x0 ../../lib/sound/libsound.a(i2ssoundbasedevice.o)
+ .bss           0x00020b4c        0x0 ../../lib/sound/libsound.a(wm8960soundcontroller.o)
+ .bss           0x00020b4c        0x0 ../../lib/sound/libsound.a(dmasoundbuffers.o)
+ .bss           0x00020b4c        0x4 ../../lib/libcircle.a(actled.o)
+                0x00020b4c                CActLED::s_pThis
+ .bss           0x00020b50        0x0 ../../lib/libcircle.a(alloc.o)
+ .bss           0x00020b50        0x0 ../../lib/libcircle.a(assert.o)
+ .bss           0x00020b50        0x0 ../../lib/libcircle.a(debug.o)
+ .bss           0x00020b50        0x0 ../../lib/libcircle.a(device.o)
+ .bss           0x00020b50        0x4 ../../lib/libcircle.a(devicenameservice.o)
+                0x00020b50                CDeviceNameService::s_This
+ .bss           0x00020b54        0x4 ../../lib/libcircle.a(koptions.o)
+                0x00020b54                CKernelOptions::s_pThis
+ .bss           0x00020b58        0x4 ../../lib/libcircle.a(logger.o)
+                0x00020b58                CLogger::s_pThis
+ .bss           0x00020b5c        0x4 ../../lib/libcircle.a(machineinfo.o)
+                0x00020b5c                CMachineInfo::s_pThis
+ .bss           0x00020b60        0x0 ../../lib/libcircle.a(ptrlist.o)
+ .bss           0x00020b60       0x14 ../../lib/libcircle.a(serial.o)
+                0x00020b60                CSerialDevice::s_pThis
+                0x00020b64                CSerialDevice::s_nInterruptUseCount
+                0x00020b68                CSerialDevice::s_pInterruptSystem
+                0x00020b6c                CSerialDevice::s_bUseFIQ
+                0x00020b70                CSerialDevice::s_nInterruptDeviceMask
+ .bss           0x00020b74        0x0 ../../lib/libcircle.a(string.o)
+ .bss           0x00020b74       0x14 ../../lib/libcircle.a(sysinit.o)
+                0x00020b78                circle_version_string
+                0x00020b84                __dso_handle
+ .bss           0x00020b88        0x4 ../../lib/libcircle.a(timer.o)
+                0x00020b88                CTimer::s_pThis
+ .bss           0x00020b8c        0x0 ../../lib/libcircle.a(util.o)
+ .bss           0x00020b8c        0x0 ../../lib/libcircle.a(util_fast.o)
+ .bss           0x00020b8c        0x8 ../../lib/libcircle.a(virtualgpiopin.o)
+                0x00020b8c                CVirtualGPIOPin::s_nGPIOBaseAddress
+                0x00020b90                CVirtualGPIOPin::s_SpinLock
+ .bss           0x00020b94        0x8 ../../lib/libcircle.a(chainboot.o)
+ .bss           0x00020b9c        0x0 ../../lib/libcircle.a(new.o)
+ .bss           0x00020b9c        0x0 ../../lib/libcircle.a(heapallocator.o)
+ .bss           0x00020b9c        0x0 ../../lib/libcircle.a(pageallocator.o)
+ .bss           0x00020b9c        0x4 ../../lib/libcircle.a(exceptionhandler.o)
+                0x00020b9c                CExceptionHandler::s_pThis
+ .bss           0x00020ba0        0x0 ../../lib/libcircle.a(exceptionstub.o)
+ .bss           0x00020ba0        0x4 ../../lib/libcircle.a(memory.o)
+                0x00020ba0                CMemorySystem::s_pThis
+ .bss           0x00020ba4        0x0 ../../lib/libcircle.a(pagetable.o)
+ .bss           0x00020ba4        0x0 ../../lib/libcircle.a(startup.o)
+ .bss           0x00020ba4       0x54 ../../lib/libcircle.a(synchronize.o)
+ .bss           0x00020bf8        0x4 ../../lib/libcircle.a(interrupt.o)
+                0x00020bf8                CInterruptSystem::s_pThis
+ .bss           0x00020bfc        0x0 ../../lib/libcircle.a(gpioclock.o)
+ .bss           0x00020bfc        0x4 ../../lib/libcircle.a(gpiopin.o)
+                0x00020bfc                CGPIOPin::s_SpinLock
+ .bss           0x00020c00        0x0 ../../lib/libcircle.a(i2cmaster.o)
+ .bss           0x00020c00        0x0 ../../lib/libcircle.a(bcmpropertytags.o)
+ .bss           0x00020c00        0x0 ../../lib/libcircle.a(delayloop.o)
+ .bss           0x00020c00        0x0 ../../lib/libcircle.a(gpiomanager.o)
+ .bss           0x00020c00        0x4 ../../lib/libcircle.a(bcmmailbox.o)
+                0x00020c00                CBcmMailBox::s_SpinLock
+ .bss           0x00020c04        0x0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_udivsi3.o)
+ .bss           0x00020c04        0x0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_dvmd_tls.o)
+ .bss           0x00020c04        0x0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_aeabi_uldivmod.o)
+ .bss           0x00020c04        0x0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_paritysi2.o)
+ .bss           0x00020c04        0x0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_udivmoddi4.o)
+ .bss           0x00020c04        0x0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sinf.o)
+ .bss           0x00020c04        0x0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-cosf.o)
+ .bss           0x00020c04        0x0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sincosf_data.o)
+ .bss           0x00020c04        0x0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-math_errf.o)
+ .bss           0x00020c04        0x0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sf_fmax.o)
+ .bss           0x00020c04        0x0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sf_fmin.o)
+ .bss           0x00020c04        0x0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sf_fpclassify.o)
+ .bss           0x00020c04        0x0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sf_floor.o)
+ .bss           0x00020c04        0x0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_arm_addsubdf3.o)
+ *(COMMON)
+                0x00020c04                        _end = .
+LOAD dsp.o
+LOAD audio.o
+LOAD kernel.o
+LOAD main.o
+START GROUP
+LOAD ../../lib/sound/libsound.a
+LOAD ../../lib/libcircle.a
+LOAD /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a
+LOAD /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a
+END GROUP
+OUTPUT(kernel.elf elf32-littlearm)
+LOAD linker stubs
+
+.debug_info     0x00000000    0x3a563
+ .debug_info    0x00000000       0xa0 dsp.o
+ .debug_info    0x000000a0     0x6d5d audio.o
+ .debug_info    0x00006dfd     0x2509 kernel.o
+ .debug_info    0x00009306     0x1950 main.o
+ .debug_info    0x0000ac56     0x3812 ../../lib/sound/libsound.a(soundbasedevice.o)
+ .debug_info    0x0000e468     0x373c ../../lib/sound/libsound.a(i2ssoundbasedevice.o)
+ .debug_info    0x00011ba4     0x1659 ../../lib/sound/libsound.a(wm8960soundcontroller.o)
+ .debug_info    0x000131fd     0x2068 ../../lib/sound/libsound.a(dmasoundbuffers.o)
+ .debug_info    0x00015265     0x142c ../../lib/libcircle.a(actled.o)
+ .debug_info    0x00016691      0xb97 ../../lib/libcircle.a(alloc.o)
+ .debug_info    0x00017228      0xebf ../../lib/libcircle.a(assert.o)
+ .debug_info    0x000180e7      0xeb2 ../../lib/libcircle.a(debug.o)
+ .debug_info    0x00018f99      0x9e2 ../../lib/libcircle.a(device.o)
+ .debug_info    0x0001997b     0x1053 ../../lib/libcircle.a(devicenameservice.o)
+ .debug_info    0x0001a9ce     0x1878 ../../lib/libcircle.a(koptions.o)
+ .debug_info    0x0001c246     0x23ee ../../lib/libcircle.a(logger.o)
+ .debug_info    0x0001e634      0xfe5 ../../lib/libcircle.a(machineinfo.o)
+ .debug_info    0x0001f619      0x7dd ../../lib/libcircle.a(ptrlist.o)
+ .debug_info    0x0001fdf6     0x2cc3 ../../lib/libcircle.a(serial.o)
+ .debug_info    0x00022ab9     0x2fad ../../lib/libcircle.a(string.o)
+ .debug_info    0x00025a66     0x1a34 ../../lib/libcircle.a(sysinit.o)
+ .debug_info    0x0002749a     0x28c4 ../../lib/libcircle.a(timer.o)
+ .debug_info    0x00029d5e      0x933 ../../lib/libcircle.a(util.o)
+ .debug_info    0x0002a691     0x109e ../../lib/libcircle.a(virtualgpiopin.o)
+ .debug_info    0x0002b72f      0x239 ../../lib/libcircle.a(chainboot.o)
+ .debug_info    0x0002b968      0xaad ../../lib/libcircle.a(new.o)
+ .debug_info    0x0002c415     0x15bf ../../lib/libcircle.a(heapallocator.o)
+ .debug_info    0x0002d9d4      0x5d7 ../../lib/libcircle.a(pageallocator.o)
+ .debug_info    0x0002dfab     0x1513 ../../lib/libcircle.a(exceptionhandler.o)
+ .debug_info    0x0002f4be      0xec7 ../../lib/libcircle.a(memory.o)
+ .debug_info    0x00030385      0x29d ../../lib/libcircle.a(pagetable.o)
+ .debug_info    0x00030622      0x248 ../../lib/libcircle.a(synchronize.o)
+ .debug_info    0x0003086a     0x111d ../../lib/libcircle.a(interrupt.o)
+ .debug_info    0x00031987     0x1518 ../../lib/libcircle.a(gpioclock.o)
+ .debug_info    0x00032e9f     0x2cf9 ../../lib/libcircle.a(gpiopin.o)
+ .debug_info    0x00035b98     0x21ab ../../lib/libcircle.a(i2cmaster.o)
+ .debug_info    0x00037d43      0xce9 ../../lib/libcircle.a(bcmpropertytags.o)
+ .debug_info    0x00038a2c      0xa49 ../../lib/libcircle.a(gpiomanager.o)
+ .debug_info    0x00039475     0x10ee ../../lib/libcircle.a(bcmmailbox.o)
+
+.debug_abbrev   0x00000000     0xa4b6
+ .debug_abbrev  0x00000000       0x8c dsp.o
+ .debug_abbrev  0x0000008c      0x9da audio.o
+ .debug_abbrev  0x00000a66      0x549 kernel.o
+ .debug_abbrev  0x00000faf      0x379 main.o
+ .debug_abbrev  0x00001328      0x651 ../../lib/sound/libsound.a(soundbasedevice.o)
+ .debug_abbrev  0x00001979      0x6f3 ../../lib/sound/libsound.a(i2ssoundbasedevice.o)
+ .debug_abbrev  0x0000206c      0x441 ../../lib/sound/libsound.a(wm8960soundcontroller.o)
+ .debug_abbrev  0x000024ad      0x589 ../../lib/sound/libsound.a(dmasoundbuffers.o)
+ .debug_abbrev  0x00002a36      0x465 ../../lib/libcircle.a(actled.o)
+ .debug_abbrev  0x00002e9b      0x2f6 ../../lib/libcircle.a(alloc.o)
+ .debug_abbrev  0x00003191      0x2e6 ../../lib/libcircle.a(assert.o)
+ .debug_abbrev  0x00003477      0x2de ../../lib/libcircle.a(debug.o)
+ .debug_abbrev  0x00003755      0x34e ../../lib/libcircle.a(device.o)
+ .debug_abbrev  0x00003aa3      0x3ee ../../lib/libcircle.a(devicenameservice.o)
+ .debug_abbrev  0x00003e91      0x4a4 ../../lib/libcircle.a(koptions.o)
+ .debug_abbrev  0x00004335      0x60c ../../lib/libcircle.a(logger.o)
+ .debug_abbrev  0x00004941      0x442 ../../lib/libcircle.a(machineinfo.o)
+ .debug_abbrev  0x00004d83      0x20a ../../lib/libcircle.a(ptrlist.o)
+ .debug_abbrev  0x00004f8d      0x693 ../../lib/libcircle.a(serial.o)
+ .debug_abbrev  0x00005620      0x4cb ../../lib/libcircle.a(string.o)
+ .debug_abbrev  0x00005aeb      0x523 ../../lib/libcircle.a(sysinit.o)
+ .debug_abbrev  0x0000600e      0x6c1 ../../lib/libcircle.a(timer.o)
+ .debug_abbrev  0x000066cf      0x249 ../../lib/libcircle.a(util.o)
+ .debug_abbrev  0x00006918      0x4db ../../lib/libcircle.a(virtualgpiopin.o)
+ .debug_abbrev  0x00006df3      0x145 ../../lib/libcircle.a(chainboot.o)
+ .debug_abbrev  0x00006f38      0x2a4 ../../lib/libcircle.a(new.o)
+ .debug_abbrev  0x000071dc      0x4b7 ../../lib/libcircle.a(heapallocator.o)
+ .debug_abbrev  0x00007693      0x290 ../../lib/libcircle.a(pageallocator.o)
+ .debug_abbrev  0x00007923      0x50d ../../lib/libcircle.a(exceptionhandler.o)
+ .debug_abbrev  0x00007e30      0x40f ../../lib/libcircle.a(memory.o)
+ .debug_abbrev  0x0000823f      0x1b0 ../../lib/libcircle.a(pagetable.o)
+ .debug_abbrev  0x000083ef      0x124 ../../lib/libcircle.a(synchronize.o)
+ .debug_abbrev  0x00008513      0x4ea ../../lib/libcircle.a(interrupt.o)
+ .debug_abbrev  0x000089fd      0x421 ../../lib/libcircle.a(gpioclock.o)
+ .debug_abbrev  0x00008e1e      0x633 ../../lib/libcircle.a(gpiopin.o)
+ .debug_abbrev  0x00009451      0x551 ../../lib/libcircle.a(i2cmaster.o)
+ .debug_abbrev  0x000099a2      0x338 ../../lib/libcircle.a(bcmpropertytags.o)
+ .debug_abbrev  0x00009cda      0x38c ../../lib/libcircle.a(gpiomanager.o)
+ .debug_abbrev  0x0000a066      0x450 ../../lib/libcircle.a(bcmmailbox.o)
+
+.debug_loclists
+                0x00000000    0x13148
+ .debug_loclists
+                0x00000000       0x3c dsp.o
+ .debug_loclists
+                0x0000003c     0x2281 audio.o
+ .debug_loclists
+                0x000022bd       0xdf kernel.o
+ .debug_loclists
+                0x0000239c       0x20 main.o
+ .debug_loclists
+                0x000023bc     0x2a83 ../../lib/sound/libsound.a(soundbasedevice.o)
+ .debug_loclists
+                0x00004e3f      0x8a9 ../../lib/sound/libsound.a(i2ssoundbasedevice.o)
+ .debug_loclists
+                0x000056e8      0xa40 ../../lib/sound/libsound.a(wm8960soundcontroller.o)
+ .debug_loclists
+                0x00006128      0x6b5 ../../lib/sound/libsound.a(dmasoundbuffers.o)
+ .debug_loclists
+                0x000067dd      0x189 ../../lib/libcircle.a(actled.o)
+ .debug_loclists
+                0x00006966      0x2b0 ../../lib/libcircle.a(alloc.o)
+ .debug_loclists
+                0x00006c16       0x55 ../../lib/libcircle.a(assert.o)
+ .debug_loclists
+                0x00006c6b      0x13c ../../lib/libcircle.a(debug.o)
+ .debug_loclists
+                0x00006da7      0x2d0 ../../lib/libcircle.a(device.o)
+ .debug_loclists
+                0x00007077      0x7ba ../../lib/libcircle.a(devicenameservice.o)
+ .debug_loclists
+                0x00007831      0x5e5 ../../lib/libcircle.a(koptions.o)
+ .debug_loclists
+                0x00007e16      0x785 ../../lib/libcircle.a(logger.o)
+ .debug_loclists
+                0x0000859b      0x51a ../../lib/libcircle.a(machineinfo.o)
+ .debug_loclists
+                0x00008ab5      0x373 ../../lib/libcircle.a(ptrlist.o)
+ .debug_loclists
+                0x00008e28     0x134d ../../lib/libcircle.a(serial.o)
+ .debug_loclists
+                0x0000a175     0x2463 ../../lib/libcircle.a(string.o)
+ .debug_loclists
+                0x0000c5d8       0xb1 ../../lib/libcircle.a(sysinit.o)
+ .debug_loclists
+                0x0000c689      0xf79 ../../lib/libcircle.a(timer.o)
+ .debug_loclists
+                0x0000d602     0x1087 ../../lib/libcircle.a(util.o)
+ .debug_loclists
+                0x0000e689      0x292 ../../lib/libcircle.a(virtualgpiopin.o)
+ .debug_loclists
+                0x0000e91b      0x10e ../../lib/libcircle.a(chainboot.o)
+ .debug_loclists
+                0x0000ea29      0x1ed ../../lib/libcircle.a(new.o)
+ .debug_loclists
+                0x0000ec16      0x467 ../../lib/libcircle.a(heapallocator.o)
+ .debug_loclists
+                0x0000f07d      0x1c7 ../../lib/libcircle.a(pageallocator.o)
+ .debug_loclists
+                0x0000f244      0x258 ../../lib/libcircle.a(exceptionhandler.o)
+ .debug_loclists
+                0x0000f49c      0x1da ../../lib/libcircle.a(memory.o)
+ .debug_loclists
+                0x0000f676       0x59 ../../lib/libcircle.a(pagetable.o)
+ .debug_loclists
+                0x0000f6cf       0xf0 ../../lib/libcircle.a(synchronize.o)
+ .debug_loclists
+                0x0000f7bf      0x9b2 ../../lib/libcircle.a(interrupt.o)
+ .debug_loclists
+                0x00010171      0x3cf ../../lib/libcircle.a(gpioclock.o)
+ .debug_loclists
+                0x00010540     0x152f ../../lib/libcircle.a(gpiopin.o)
+ .debug_loclists
+                0x00011a6f      0xcf0 ../../lib/libcircle.a(i2cmaster.o)
+ .debug_loclists
+                0x0001275f      0x2bd ../../lib/libcircle.a(bcmpropertytags.o)
+ .debug_loclists
+                0x00012a1c      0x453 ../../lib/libcircle.a(gpiomanager.o)
+ .debug_loclists
+                0x00012e6f      0x2d9 ../../lib/libcircle.a(bcmmailbox.o)
+
+.debug_aranges  0x00000000      0x548
+ .debug_aranges
+                0x00000000       0x20 dsp.o
+ .debug_aranges
+                0x00000020       0x38 audio.o
+ .debug_aranges
+                0x00000058       0x20 kernel.o
+ .debug_aranges
+                0x00000078       0x20 main.o
+ .debug_aranges
+                0x00000098       0x28 ../../lib/sound/libsound.a(soundbasedevice.o)
+ .debug_aranges
+                0x000000c0       0x30 ../../lib/sound/libsound.a(i2ssoundbasedevice.o)
+ .debug_aranges
+                0x000000f0       0x40 ../../lib/sound/libsound.a(wm8960soundcontroller.o)
+ .debug_aranges
+                0x00000130       0x20 ../../lib/sound/libsound.a(dmasoundbuffers.o)
+ .debug_aranges
+                0x00000150       0x20 ../../lib/libcircle.a(actled.o)
+ .debug_aranges
+                0x00000170       0x20 ../../lib/libcircle.a(alloc.o)
+ .debug_aranges
+                0x00000190       0x20 ../../lib/libcircle.a(assert.o)
+ .debug_aranges
+                0x000001b0       0x20 ../../lib/libcircle.a(debug.o)
+ .debug_aranges
+                0x000001d0       0x20 ../../lib/libcircle.a(device.o)
+ .debug_aranges
+                0x000001f0       0x20 ../../lib/libcircle.a(devicenameservice.o)
+ .debug_aranges
+                0x00000210       0x20 ../../lib/libcircle.a(koptions.o)
+ .debug_aranges
+                0x00000230       0x20 ../../lib/libcircle.a(logger.o)
+ .debug_aranges
+                0x00000250       0x20 ../../lib/libcircle.a(machineinfo.o)
+ .debug_aranges
+                0x00000270       0x20 ../../lib/libcircle.a(ptrlist.o)
+ .debug_aranges
+                0x00000290       0x20 ../../lib/libcircle.a(serial.o)
+ .debug_aranges
+                0x000002b0       0x20 ../../lib/libcircle.a(string.o)
+ .debug_aranges
+                0x000002d0       0x20 ../../lib/libcircle.a(sysinit.o)
+ .debug_aranges
+                0x000002f0       0x20 ../../lib/libcircle.a(timer.o)
+ .debug_aranges
+                0x00000310       0x20 ../../lib/libcircle.a(util.o)
+ .debug_aranges
+                0x00000330       0x28 ../../lib/libcircle.a(virtualgpiopin.o)
+ .debug_aranges
+                0x00000358       0x20 ../../lib/libcircle.a(chainboot.o)
+ .debug_aranges
+                0x00000378       0x20 ../../lib/libcircle.a(new.o)
+ .debug_aranges
+                0x00000398       0x20 ../../lib/libcircle.a(heapallocator.o)
+ .debug_aranges
+                0x000003b8       0x20 ../../lib/libcircle.a(pageallocator.o)
+ .debug_aranges
+                0x000003d8       0x20 ../../lib/libcircle.a(exceptionhandler.o)
+ .debug_aranges
+                0x000003f8       0x20 ../../lib/libcircle.a(memory.o)
+ .debug_aranges
+                0x00000418       0x20 ../../lib/libcircle.a(pagetable.o)
+ .debug_aranges
+                0x00000438       0x20 ../../lib/libcircle.a(synchronize.o)
+ .debug_aranges
+                0x00000458       0x20 ../../lib/libcircle.a(interrupt.o)
+ .debug_aranges
+                0x00000478       0x20 ../../lib/libcircle.a(gpioclock.o)
+ .debug_aranges
+                0x00000498       0x28 ../../lib/libcircle.a(gpiopin.o)
+ .debug_aranges
+                0x000004c0       0x20 ../../lib/libcircle.a(i2cmaster.o)
+ .debug_aranges
+                0x000004e0       0x20 ../../lib/libcircle.a(bcmpropertytags.o)
+ .debug_aranges
+                0x00000500       0x20 ../../lib/libcircle.a(gpiomanager.o)
+ .debug_aranges
+                0x00000520       0x28 ../../lib/libcircle.a(bcmmailbox.o)
+
+.debug_line     0x00000000    0x153c6
+ .debug_line    0x00000000       0x47 dsp.o
+ .debug_line    0x00000047     0x4883 audio.o
+ .debug_line    0x000048ca      0x37a kernel.o
+ .debug_line    0x00004c44      0x187 main.o
+ .debug_line    0x00004dcb     0x1d77 ../../lib/sound/libsound.a(soundbasedevice.o)
+ .debug_line    0x00006b42      0xaaa ../../lib/sound/libsound.a(i2ssoundbasedevice.o)
+ .debug_line    0x000075ec      0x753 ../../lib/sound/libsound.a(wm8960soundcontroller.o)
+ .debug_line    0x00007d3f      0xc0e ../../lib/sound/libsound.a(dmasoundbuffers.o)
+ .debug_line    0x0000894d      0x327 ../../lib/libcircle.a(actled.o)
+ .debug_line    0x00008c74      0x26c ../../lib/libcircle.a(alloc.o)
+ .debug_line    0x00008ee0      0x13a ../../lib/libcircle.a(assert.o)
+ .debug_line    0x0000901a      0x1c3 ../../lib/libcircle.a(debug.o)
+ .debug_line    0x000091dd      0x212 ../../lib/libcircle.a(device.o)
+ .debug_line    0x000093ef      0x735 ../../lib/libcircle.a(devicenameservice.o)
+ .debug_line    0x00009b24      0x843 ../../lib/libcircle.a(koptions.o)
+ .debug_line    0x0000a367      0xa32 ../../lib/libcircle.a(logger.o)
+ .debug_line    0x0000ad99      0x573 ../../lib/libcircle.a(machineinfo.o)
+ .debug_line    0x0000b30c      0x3fa ../../lib/libcircle.a(ptrlist.o)
+ .debug_line    0x0000b706     0x1626 ../../lib/libcircle.a(serial.o)
+ .debug_line    0x0000cd2c     0x1a61 ../../lib/libcircle.a(string.o)
+ .debug_line    0x0000e78d      0x2ee ../../lib/libcircle.a(sysinit.o)
+ .debug_line    0x0000ea7b     0x10f8 ../../lib/libcircle.a(timer.o)
+ .debug_line    0x0000fb73      0x9d3 ../../lib/libcircle.a(util.o)
+ .debug_line    0x00010546      0x3c7 ../../lib/libcircle.a(virtualgpiopin.o)
+ .debug_line    0x0001090d       0xec ../../lib/libcircle.a(chainboot.o)
+ .debug_line    0x000109f9      0x1a4 ../../lib/libcircle.a(new.o)
+ .debug_line    0x00010b9d      0x540 ../../lib/libcircle.a(heapallocator.o)
+ .debug_line    0x000110dd      0x29f ../../lib/libcircle.a(pageallocator.o)
+ .debug_line    0x0001137c      0x395 ../../lib/libcircle.a(exceptionhandler.o)
+ .debug_line    0x00011711      0x2fd ../../lib/libcircle.a(memory.o)
+ .debug_line    0x00011a0e      0x11d ../../lib/libcircle.a(pagetable.o)
+ .debug_line    0x00011b2b      0x164 ../../lib/libcircle.a(synchronize.o)
+ .debug_line    0x00011c8f      0x8fd ../../lib/libcircle.a(interrupt.o)
+ .debug_line    0x0001258c      0x3f1 ../../lib/libcircle.a(gpioclock.o)
+ .debug_line    0x0001297d     0x120c ../../lib/libcircle.a(gpiopin.o)
+ .debug_line    0x00013b89      0xd74 ../../lib/libcircle.a(i2cmaster.o)
+ .debug_line    0x000148fd      0x2af ../../lib/libcircle.a(bcmpropertytags.o)
+ .debug_line    0x00014bac      0x3ec ../../lib/libcircle.a(gpiomanager.o)
+ .debug_line    0x00014f98      0x42e ../../lib/libcircle.a(bcmmailbox.o)
+
+.debug_str      0x00000000     0x8bdd
+ .debug_str     0x00000000     0x8bdd dsp.o
+                                 0xe2 (size before relaxing)
+ .debug_str     0x00008bdd     0x2bb2 audio.o
+ .debug_str     0x00008bdd     0x2688 kernel.o
+ .debug_str     0x00008bdd     0x1ce6 main.o
+ .debug_str     0x00008bdd     0x173b ../../lib/sound/libsound.a(soundbasedevice.o)
+ .debug_str     0x00008bdd     0x2e6c ../../lib/sound/libsound.a(i2ssoundbasedevice.o)
+ .debug_str     0x00008bdd      0xd5c ../../lib/sound/libsound.a(wm8960soundcontroller.o)
+ .debug_str     0x00008bdd     0x195e ../../lib/sound/libsound.a(dmasoundbuffers.o)
+ .debug_str     0x00008bdd     0x1699 ../../lib/libcircle.a(actled.o)
+ .debug_str     0x00008bdd      0x826 ../../lib/libcircle.a(alloc.o)
+ .debug_str     0x00008bdd     0x110b ../../lib/libcircle.a(assert.o)
+ .debug_str     0x00008bdd     0x10c8 ../../lib/libcircle.a(debug.o)
+ .debug_str     0x00008bdd      0x5ea ../../lib/libcircle.a(device.o)
+ .debug_str     0x00008bdd      0x680 ../../lib/libcircle.a(devicenameservice.o)
+ .debug_str     0x00008bdd      0xb6e ../../lib/libcircle.a(koptions.o)
+ .debug_str     0x00008bdd     0x1ae3 ../../lib/libcircle.a(logger.o)
+ .debug_str     0x00008bdd      0xc49 ../../lib/libcircle.a(machineinfo.o)
+ .debug_str     0x00008bdd      0x338 ../../lib/libcircle.a(ptrlist.o)
+ .debug_str     0x00008bdd     0x1981 ../../lib/libcircle.a(serial.o)
+ .debug_str     0x00008bdd      0x766 ../../lib/libcircle.a(string.o)
+ .debug_str     0x00008bdd     0x1c06 ../../lib/libcircle.a(sysinit.o)
+ .debug_str     0x00008bdd     0x1384 ../../lib/libcircle.a(timer.o)
+ .debug_str     0x00008bdd      0x2f8 ../../lib/libcircle.a(util.o)
+ .debug_str     0x00008bdd      0xcaa ../../lib/libcircle.a(virtualgpiopin.o)
+ .debug_str     0x00008bdd      0x215 ../../lib/libcircle.a(chainboot.o)
+ .debug_str     0x00008bdd      0x849 ../../lib/libcircle.a(new.o)
+ .debug_str     0x00008bdd     0x1316 ../../lib/libcircle.a(heapallocator.o)
+ .debug_str     0x00008bdd      0x3b1 ../../lib/libcircle.a(pageallocator.o)
+ .debug_str     0x00008bdd     0x1387 ../../lib/libcircle.a(exceptionhandler.o)
+ .debug_str     0x00008bdd      0xb14 ../../lib/libcircle.a(memory.o)
+ .debug_str     0x00008bdd      0x249 ../../lib/libcircle.a(pagetable.o)
+ .debug_str     0x00008bdd      0x216 ../../lib/libcircle.a(synchronize.o)
+ .debug_str     0x00008bdd      0x5d6 ../../lib/libcircle.a(interrupt.o)
+ .debug_str     0x00008bdd     0x15f3 ../../lib/libcircle.a(gpioclock.o)
+ .debug_str     0x00008bdd     0x1d86 ../../lib/libcircle.a(gpiopin.o)
+ .debug_str     0x00008bdd     0x1882 ../../lib/libcircle.a(i2cmaster.o)
+ .debug_str     0x00008bdd      0xa6e ../../lib/libcircle.a(bcmpropertytags.o)
+ .debug_str     0x00008bdd      0x6f8 ../../lib/libcircle.a(gpiomanager.o)
+ .debug_str     0x00008bdd      0xe85 ../../lib/libcircle.a(bcmmailbox.o)
+
+.comment        0x00000000       0x45
+ .comment       0x00000000       0x45 dsp.o
+                                 0x46 (size before relaxing)
+ .comment       0x00000045       0x46 audio.o
+ .comment       0x00000045       0x46 kernel.o
+ .comment       0x00000045       0x46 main.o
+ .comment       0x00000045       0x46 ../../lib/sound/libsound.a(soundbasedevice.o)
+ .comment       0x00000045       0x46 ../../lib/sound/libsound.a(i2ssoundbasedevice.o)
+ .comment       0x00000045       0x46 ../../lib/sound/libsound.a(wm8960soundcontroller.o)
+ .comment       0x00000045       0x46 ../../lib/sound/libsound.a(dmasoundbuffers.o)
+ .comment       0x00000045       0x46 ../../lib/libcircle.a(actled.o)
+ .comment       0x00000045       0x46 ../../lib/libcircle.a(alloc.o)
+ .comment       0x00000045       0x46 ../../lib/libcircle.a(assert.o)
+ .comment       0x00000045       0x46 ../../lib/libcircle.a(debug.o)
+ .comment       0x00000045       0x46 ../../lib/libcircle.a(device.o)
+ .comment       0x00000045       0x46 ../../lib/libcircle.a(devicenameservice.o)
+ .comment       0x00000045       0x46 ../../lib/libcircle.a(koptions.o)
+ .comment       0x00000045       0x46 ../../lib/libcircle.a(logger.o)
+ .comment       0x00000045       0x46 ../../lib/libcircle.a(machineinfo.o)
+ .comment       0x00000045       0x46 ../../lib/libcircle.a(ptrlist.o)
+ .comment       0x00000045       0x46 ../../lib/libcircle.a(serial.o)
+ .comment       0x00000045       0x46 ../../lib/libcircle.a(string.o)
+ .comment       0x00000045       0x46 ../../lib/libcircle.a(sysinit.o)
+ .comment       0x00000045       0x46 ../../lib/libcircle.a(timer.o)
+ .comment       0x00000045       0x46 ../../lib/libcircle.a(util.o)
+ .comment       0x00000045       0x46 ../../lib/libcircle.a(virtualgpiopin.o)
+ .comment       0x00000045       0x46 ../../lib/libcircle.a(chainboot.o)
+ .comment       0x00000045       0x46 ../../lib/libcircle.a(new.o)
+ .comment       0x00000045       0x46 ../../lib/libcircle.a(heapallocator.o)
+ .comment       0x00000045       0x46 ../../lib/libcircle.a(pageallocator.o)
+ .comment       0x00000045       0x46 ../../lib/libcircle.a(exceptionhandler.o)
+ .comment       0x00000045       0x46 ../../lib/libcircle.a(memory.o)
+ .comment       0x00000045       0x46 ../../lib/libcircle.a(pagetable.o)
+ .comment       0x00000045       0x46 ../../lib/libcircle.a(synchronize.o)
+ .comment       0x00000045       0x46 ../../lib/libcircle.a(interrupt.o)
+ .comment       0x00000045       0x46 ../../lib/libcircle.a(gpioclock.o)
+ .comment       0x00000045       0x46 ../../lib/libcircle.a(gpiopin.o)
+ .comment       0x00000045       0x46 ../../lib/libcircle.a(i2cmaster.o)
+ .comment       0x00000045       0x46 ../../lib/libcircle.a(bcmpropertytags.o)
+ .comment       0x00000045       0x46 ../../lib/libcircle.a(gpiomanager.o)
+ .comment       0x00000045       0x46 ../../lib/libcircle.a(bcmmailbox.o)
+
+.ARM.attributes
+                0x00000000       0x31
+ .ARM.attributes
+                0x00000000       0x33 dsp.o
+ .ARM.attributes
+                0x00000033       0x33 audio.o
+ .ARM.attributes
+                0x00000066       0x33 kernel.o
+ .ARM.attributes
+                0x00000099       0x33 main.o
+ .ARM.attributes
+                0x000000cc       0x33 ../../lib/sound/libsound.a(soundbasedevice.o)
+ .ARM.attributes
+                0x000000ff       0x33 ../../lib/sound/libsound.a(i2ssoundbasedevice.o)
+ .ARM.attributes
+                0x00000132       0x33 ../../lib/sound/libsound.a(wm8960soundcontroller.o)
+ .ARM.attributes
+                0x00000165       0x33 ../../lib/sound/libsound.a(dmasoundbuffers.o)
+ .ARM.attributes
+                0x00000198       0x31 ../../lib/libcircle.a(actled.o)
+ .ARM.attributes
+                0x000001c9       0x31 ../../lib/libcircle.a(alloc.o)
+ .ARM.attributes
+                0x000001fa       0x31 ../../lib/libcircle.a(assert.o)
+ .ARM.attributes
+                0x0000022b       0x31 ../../lib/libcircle.a(debug.o)
+ .ARM.attributes
+                0x0000025c       0x31 ../../lib/libcircle.a(device.o)
+ .ARM.attributes
+                0x0000028d       0x31 ../../lib/libcircle.a(devicenameservice.o)
+ .ARM.attributes
+                0x000002be       0x31 ../../lib/libcircle.a(koptions.o)
+ .ARM.attributes
+                0x000002ef       0x31 ../../lib/libcircle.a(logger.o)
+ .ARM.attributes
+                0x00000320       0x31 ../../lib/libcircle.a(machineinfo.o)
+ .ARM.attributes
+                0x00000351       0x31 ../../lib/libcircle.a(ptrlist.o)
+ .ARM.attributes
+                0x00000382       0x31 ../../lib/libcircle.a(serial.o)
+ .ARM.attributes
+                0x000003b3       0x31 ../../lib/libcircle.a(string.o)
+ .ARM.attributes
+                0x000003e4       0x31 ../../lib/libcircle.a(sysinit.o)
+ .ARM.attributes
+                0x00000415       0x31 ../../lib/libcircle.a(timer.o)
+ .ARM.attributes
+                0x00000446       0x31 ../../lib/libcircle.a(util.o)
+ .ARM.attributes
+                0x00000477       0x1f ../../lib/libcircle.a(util_fast.o)
+ .ARM.attributes
+                0x00000496       0x31 ../../lib/libcircle.a(virtualgpiopin.o)
+ .ARM.attributes
+                0x000004c7       0x31 ../../lib/libcircle.a(chainboot.o)
+ .ARM.attributes
+                0x000004f8       0x31 ../../lib/libcircle.a(new.o)
+ .ARM.attributes
+                0x00000529       0x31 ../../lib/libcircle.a(heapallocator.o)
+ .ARM.attributes
+                0x0000055a       0x31 ../../lib/libcircle.a(pageallocator.o)
+ .ARM.attributes
+                0x0000058b       0x31 ../../lib/libcircle.a(exceptionhandler.o)
+ .ARM.attributes
+                0x000005bc       0x1f ../../lib/libcircle.a(exceptionstub.o)
+ .ARM.attributes
+                0x000005db       0x31 ../../lib/libcircle.a(memory.o)
+ .ARM.attributes
+                0x0000060c       0x31 ../../lib/libcircle.a(pagetable.o)
+ .ARM.attributes
+                0x0000063d       0x1f ../../lib/libcircle.a(startup.o)
+ .ARM.attributes
+                0x0000065c       0x31 ../../lib/libcircle.a(synchronize.o)
+ .ARM.attributes
+                0x0000068d       0x31 ../../lib/libcircle.a(interrupt.o)
+ .ARM.attributes
+                0x000006be       0x31 ../../lib/libcircle.a(gpioclock.o)
+ .ARM.attributes
+                0x000006ef       0x31 ../../lib/libcircle.a(gpiopin.o)
+ .ARM.attributes
+                0x00000720       0x31 ../../lib/libcircle.a(i2cmaster.o)
+ .ARM.attributes
+                0x00000751       0x31 ../../lib/libcircle.a(bcmpropertytags.o)
+ .ARM.attributes
+                0x00000782       0x1f ../../lib/libcircle.a(delayloop.o)
+ .ARM.attributes
+                0x000007a1       0x31 ../../lib/libcircle.a(gpiomanager.o)
+ .ARM.attributes
+                0x000007d2       0x31 ../../lib/libcircle.a(bcmmailbox.o)
+ .ARM.attributes
+                0x00000803       0x1f /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_udivsi3.o)
+ .ARM.attributes
+                0x00000822       0x1f /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_dvmd_tls.o)
+ .ARM.attributes
+                0x00000841       0x1f /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_aeabi_uldivmod.o)
+ .ARM.attributes
+                0x00000860       0x2f /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_paritysi2.o)
+ .ARM.attributes
+                0x0000088f       0x2f /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_udivmoddi4.o)
+ .ARM.attributes
+                0x000008be       0x2f /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sinf.o)
+ .ARM.attributes
+                0x000008ed       0x2f /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-cosf.o)
+ .ARM.attributes
+                0x0000091c       0x2f /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sincosf_data.o)
+ .ARM.attributes
+                0x0000094b       0x2f /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-math_errf.o)
+ .ARM.attributes
+                0x0000097a       0x2f /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sf_fmax.o)
+ .ARM.attributes
+                0x000009a9       0x2f /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sf_fmin.o)
+ .ARM.attributes
+                0x000009d8       0x2f /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sf_fpclassify.o)
+ .ARM.attributes
+                0x00000a07       0x2f /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sf_floor.o)
+ .ARM.attributes
+                0x00000a36       0x1f /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_arm_addsubdf3.o)
+
+.debug_frame    0x00000000     0x33cc
+ .debug_frame   0x00000000       0x30 dsp.o
+ .debug_frame   0x00000030      0x3dc audio.o
+ .debug_frame   0x0000040c       0x90 kernel.o
+ .debug_frame   0x0000049c       0x30 main.o
+ .debug_frame   0x000004cc      0x468 ../../lib/sound/libsound.a(soundbasedevice.o)
+ .debug_frame   0x00000934      0x1d8 ../../lib/sound/libsound.a(i2ssoundbasedevice.o)
+ .debug_frame   0x00000b0c      0x148 ../../lib/sound/libsound.a(wm8960soundcontroller.o)
+ .debug_frame   0x00000c54      0x124 ../../lib/sound/libsound.a(dmasoundbuffers.o)
+ .debug_frame   0x00000d78       0x90 ../../lib/libcircle.a(actled.o)
+ .debug_frame   0x00000e08       0x94 ../../lib/libcircle.a(alloc.o)
+ .debug_frame   0x00000e9c       0x2c ../../lib/libcircle.a(assert.o)
+ .debug_frame   0x00000ec8       0x64 ../../lib/libcircle.a(debug.o)
+ .debug_frame   0x00000f2c       0xf8 ../../lib/libcircle.a(device.o)
+ .debug_frame   0x00001024      0x1b8 ../../lib/libcircle.a(devicenameservice.o)
+ .debug_frame   0x000011dc      0x210 ../../lib/libcircle.a(koptions.o)
+ .debug_frame   0x000013ec      0x1c0 ../../lib/libcircle.a(logger.o)
+ .debug_frame   0x000015ac      0x1a8 ../../lib/libcircle.a(machineinfo.o)
+ .debug_frame   0x00001754       0xe8 ../../lib/libcircle.a(ptrlist.o)
+ .debug_frame   0x0000183c      0x26c ../../lib/libcircle.a(serial.o)
+ .debug_frame   0x00001aa8      0x374 ../../lib/libcircle.a(string.o)
+ .debug_frame   0x00001e1c       0x94 ../../lib/libcircle.a(sysinit.o)
+ .debug_frame   0x00001eb0      0x2d4 ../../lib/libcircle.a(timer.o)
+ .debug_frame   0x00002184      0x180 ../../lib/libcircle.a(util.o)
+ .debug_frame   0x00002304       0xb8 ../../lib/libcircle.a(virtualgpiopin.o)
+ .debug_frame   0x000023bc       0x58 ../../lib/libcircle.a(chainboot.o)
+ .debug_frame   0x00002414       0xb0 ../../lib/libcircle.a(new.o)
+ .debug_frame   0x000024c4       0xd0 ../../lib/libcircle.a(heapallocator.o)
+ .debug_frame   0x00002594       0xa0 ../../lib/libcircle.a(pageallocator.o)
+ .debug_frame   0x00002634      0x10c ../../lib/libcircle.a(exceptionhandler.o)
+ .debug_frame   0x00002740       0xc0 ../../lib/libcircle.a(memory.o)
+ .debug_frame   0x00002800       0x50 ../../lib/libcircle.a(pagetable.o)
+ .debug_frame   0x00002850       0x70 ../../lib/libcircle.a(synchronize.o)
+ .debug_frame   0x000028c0      0x18c ../../lib/libcircle.a(interrupt.o)
+ .debug_frame   0x00002a4c       0x94 ../../lib/libcircle.a(gpioclock.o)
+ .debug_frame   0x00002ae0      0x2f0 ../../lib/libcircle.a(gpiopin.o)
+ .debug_frame   0x00002dd0       0xf0 ../../lib/libcircle.a(i2cmaster.o)
+ .debug_frame   0x00002ec0       0x7c ../../lib/libcircle.a(bcmpropertytags.o)
+ .debug_frame   0x00002f3c       0xb4 ../../lib/libcircle.a(gpiomanager.o)
+ .debug_frame   0x00002ff0       0xac ../../lib/libcircle.a(bcmmailbox.o)
+ .debug_frame   0x0000309c       0x20 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_udivsi3.o)
+ .debug_frame   0x000030bc       0x2c /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_aeabi_uldivmod.o)
+ .debug_frame   0x000030e8       0x20 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_paritysi2.o)
+ .debug_frame   0x00003108       0x34 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_udivmoddi4.o)
+ .debug_frame   0x0000313c       0x4c /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sinf.o)
+ .debug_frame   0x00003188       0x38 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-cosf.o)
+ .debug_frame   0x000031c0       0x98 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-math_errf.o)
+ .debug_frame   0x00003258       0x44 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sf_fmax.o)
+ .debug_frame   0x0000329c       0x44 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sf_fmin.o)
+ .debug_frame   0x000032e0       0x20 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sf_fpclassify.o)
+ .debug_frame   0x00003300       0x20 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/../../../../arm-none-eabi/lib/arm/v5te/hard/libm.a(libm_a-sf_floor.o)
+ .debug_frame   0x00003320       0xac /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_arm_addsubdf3.o)
+
+.debug_rnglists
+                0x00000000     0x1a37
+ .debug_rnglists
+                0x00000000      0x242 audio.o
+ .debug_rnglists
+                0x00000242       0x13 main.o
+ .debug_rnglists
+                0x00000255      0x20d ../../lib/sound/libsound.a(soundbasedevice.o)
+ .debug_rnglists
+                0x00000462       0x6b ../../lib/sound/libsound.a(i2ssoundbasedevice.o)
+ .debug_rnglists
+                0x000004cd       0x78 ../../lib/sound/libsound.a(wm8960soundcontroller.o)
+ .debug_rnglists
+                0x00000545       0xe1 ../../lib/sound/libsound.a(dmasoundbuffers.o)
+ .debug_rnglists
+                0x00000626       0x50 ../../lib/libcircle.a(actled.o)
+ .debug_rnglists
+                0x00000676       0x25 ../../lib/libcircle.a(alloc.o)
+ .debug_rnglists
+                0x0000069b       0x36 ../../lib/libcircle.a(debug.o)
+ .debug_rnglists
+                0x000006d1       0x14 ../../lib/libcircle.a(device.o)
+ .debug_rnglists
+                0x000006e5       0xb3 ../../lib/libcircle.a(devicenameservice.o)
+ .debug_rnglists
+                0x00000798      0x14c ../../lib/libcircle.a(koptions.o)
+ .debug_rnglists
+                0x000008e4       0xe2 ../../lib/libcircle.a(logger.o)
+ .debug_rnglists
+                0x000009c6       0x17 ../../lib/libcircle.a(machineinfo.o)
+ .debug_rnglists
+                0x000009dd       0x1e ../../lib/libcircle.a(ptrlist.o)
+ .debug_rnglists
+                0x000009fb      0x2aa ../../lib/libcircle.a(serial.o)
+ .debug_rnglists
+                0x00000ca5      0x228 ../../lib/libcircle.a(string.o)
+ .debug_rnglists
+                0x00000ecd       0x1a ../../lib/libcircle.a(sysinit.o)
+ .debug_rnglists
+                0x00000ee7      0x20a ../../lib/libcircle.a(timer.o)
+ .debug_rnglists
+                0x000010f1       0xcb ../../lib/libcircle.a(util.o)
+ .debug_rnglists
+                0x000011bc       0x85 ../../lib/libcircle.a(virtualgpiopin.o)
+ .debug_rnglists
+                0x00001241       0x33 ../../lib/libcircle.a(new.o)
+ .debug_rnglists
+                0x00001274       0x98 ../../lib/libcircle.a(heapallocator.o)
+ .debug_rnglists
+                0x0000130c       0x63 ../../lib/libcircle.a(pageallocator.o)
+ .debug_rnglists
+                0x0000136f       0x5b ../../lib/libcircle.a(exceptionhandler.o)
+ .debug_rnglists
+                0x000013ca       0x21 ../../lib/libcircle.a(memory.o)
+ .debug_rnglists
+                0x000013eb       0x1a ../../lib/libcircle.a(pagetable.o)
+ .debug_rnglists
+                0x00001405      0x110 ../../lib/libcircle.a(interrupt.o)
+ .debug_rnglists
+                0x00001515       0x5a ../../lib/libcircle.a(gpioclock.o)
+ .debug_rnglists
+                0x0000156f      0x211 ../../lib/libcircle.a(gpiopin.o)
+ .debug_rnglists
+                0x00001780      0x1a7 ../../lib/libcircle.a(i2cmaster.o)
+ .debug_rnglists
+                0x00001927       0x4a ../../lib/libcircle.a(gpiomanager.o)
+ .debug_rnglists
+                0x00001971       0xc6 ../../lib/libcircle.a(bcmmailbox.o)
+
+.debug_line_str
+                0x00000000       0xe5
+ .debug_line_str
+                0x00000000       0xe5 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_udivsi3.o)
+                                 0xd0 (size before relaxing)
+ .debug_line_str
+                0x000000e5       0xd0 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_dvmd_tls.o)
+ .debug_line_str
+                0x000000e5       0xcc /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_aeabi_uldivmod.o)
+ .debug_line_str
+                0x000000e5       0xd1 /Applications/ArmGNUToolchain/13.3.rel1/arm-none-eabi/bin/../lib/gcc/arm-none-eabi/13.3.1/arm/v5te/hard/libgcc.a(_arm_addsubdf3.o)
